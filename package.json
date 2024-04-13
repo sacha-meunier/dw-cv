@@ -1,0 +1,22 @@
+{
+  "name": "dw-cv",
+  "version": "1.0.0",
+  "description": "School project where you have to recreate a homepage from scratch using HTML, CSS, Javascript.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sacha-meunier/dw-cv.git"
+  },
+  "author": "Sacha <sacha.meunier@hepl.be>",
+  "bugs": {
+    "url": "https://github.com/sacha-meunier/dw-cv/issues"
+  },
+  "homepage": "https://github.com/sacha-meunier/dw-cv#readme",
+  "devDependencies": {
+    "sass": "^1.72.0",
+    "vite": "^5.2.7"
+  }
+}
