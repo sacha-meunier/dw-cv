@@ -1,4 +1,4 @@
-# Projet CV basé sur la Réplication de la Page d'Accueil d'Orizon.co
+# Design Web - CV
 
 Ce projet consiste à créer une version personnalisée de la page d'accueil du site web Orizon.co en utilisant notre
 propre contenu de type CV. Le site original peut être consulté [ici](https://www.orizon.co/), tandis que la version que j'ai copiée est accessible [ici](https://web.archive.org/web/20230510145043/https://www.orizon.co/).
@@ -13,11 +13,12 @@ vitae. Cela nous permet de démontrer nos compétences en HTML, CSS et javascrip
 
 - HTML5
 - CSS3 & SASS
-- Javascript
+- Typescript
 
-## Comment Utiliser
+## Installation
 
-1. Clonez ce dépôt sur votre machine locale :
+Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivantes :
 
-```bash
-git clone lien_du_depot.git
+1. Télécharger ou clonez ce dépôt sur votre machine locale ;
+2. Exécuter la commande `npm install` dans le terminal ;
+3. Exécuter la commande `npx vite` ou `vite`et ouvrez la page dans votre navigateur.
