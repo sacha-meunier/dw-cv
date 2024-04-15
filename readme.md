@@ -21,4 +21,4 @@ Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivan
 
 1. Télécharger ou clonez ce dépôt sur votre machine locale ;
 2. Exécuter la commande `npm install` dans le terminal ;
-3. Exécuter la commande `npx vite` ou `vite`et ouvrez la page dans votre navigateur.
+3. Exécuter la commande `mix watch` et ouvrez la page dans votre navigateur.
