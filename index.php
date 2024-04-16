@@ -6,7 +6,7 @@
 
     <title>CV - Sacha Meunier</title>
 
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="./dist/css/main.css">
     <meta name="author" content="Sacha Meunier">
     <meta name="description"
           content="Bienvenue sur mon CV en ligne en tant que développeur Web. Découvrez mon parcours professionnel, ma formation, mes compétences et mes réalisations. Consultez mon site pour en savoir plus.">
@@ -27,6 +27,9 @@
 <body>
 <main>
 </main>
+
+<?php include 'src/php/footer.php'?>
+
 <script src="dist/js/main.js"></script>
 </body>
 </html>
