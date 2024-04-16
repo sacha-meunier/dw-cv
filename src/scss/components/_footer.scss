@@ -1,0 +1,97 @@
+@import "src/scss/settings";
+
+.footer {
+  padding: 20px 24px 40px;
+
+  &__about {
+    margin-bottom: 80px;
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-bottom: 32px;
+  }
+
+  &__description {
+    margin-bottom: 32px;
+    color: $black;
+    font-size: $fs-17;
+    font-family: $ff-r;
+    line-height: 24px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 148px;
+    min-height: 48px;
+    color: $blue;
+    background-color: $white;
+    border: 1px solid $blue;
+    font-family: $ff-sb;
+    font-size: $fs-14;
+    letter-spacing: 1.17px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+
+    &-content {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    &-title {
+      margin-bottom: 24px;
+      font-size: $fs-16;
+      font-family: $ff-sb;
+      color: $black;
+    }
+
+    &-item {
+      margin-bottom: 24px;
+    }
+
+    &-link {
+      font-size: $fs-16;
+      font-family: $ff-r;
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  &__social {
+    &-list {
+      margin-bottom: 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__legal-content {
+    color: $black;
+    font-size: $fs-16;
+    font-family: $ff-r;
+  }
+
+  &__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-icon {
+      margin-right: 4px;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+}
