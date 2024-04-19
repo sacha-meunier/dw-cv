@@ -1,10 +1,20 @@
 @import "src/scss/settings";
 
 .footer {
-  padding: 20px 24px 40px;
+  container-type: inline-size;
+  container-name: footer;
+
+  &__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 24px 40px;
+    max-width: 1280px;
+    width: 100%;
+  }
 
   &__about {
     margin-bottom: 80px;
+    max-width: 400px;
   }
 
   &__logo {
@@ -39,13 +49,9 @@
 
   &__nav {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-
-    &-content {
-      width: 100%;
-      margin-bottom: 24px;
-    }
+    flex-direction: column;
+    gap: 55px;
+    max-width: 660px;
 
     &-title {
       margin-bottom: 24px;
@@ -54,8 +60,11 @@
       color: $black;
     }
 
-    &-item {
-      margin-bottom: 24px;
+    &-list {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: flex-start;
+      row-gap: 24px;
     }
 
     &-link {
@@ -67,15 +76,49 @@
   }
 
   &__social {
+    margin-top: 70px;
+
     &-list {
       margin-bottom: 48px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      column-gap: 20px;
+    }
+
+    &-logo-link {
+      display: grid;
+      position: relative;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      clip-path: circle(50%);
+      transition: all .2s ease;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        background: $clr-blue-hover;
+        width: 0%;
+        height: 32px;
+        transition: all .2s ease-in-out;
+      }
+      &:hover:before {
+        width: 100%;
+
+      }
     }
   }
 
   &__legal-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
     color: $black;
     font-size: $fs-16;
     font-family: $ff-r;
@@ -85,6 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4px;
 
     &-icon {
       margin-right: 4px;
@@ -93,5 +137,78 @@
 
   &__copyright {
     text-align: center;
+  }
+}
+
+@container footer (min-width: 480px) {
+  .footer {
+
+    &__wrapper {
+      padding: 20px 32px 40px;
+    }
+
+    &__logo-image {
+      width: 122px;
+      height: 48px;
+    }
+
+    &__nav {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 0;
+
+      &-list--column {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        row-gap: 24px;
+      }
+    }
+  }
+}
+
+@container footer (min-width: 768px) {
+  .footer {
+    &__wrapper {
+      padding: 64px 60px 40px;
+    }
+  }
+}
+
+@container footer (min-width: 992px) {
+  .footer {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      justify-content: space-between;
+      padding: 64px 60px 40px;
+    }
+
+    &__about {
+      margin-right: 80px;
+    }
+
+    &__nav {
+      width: 100%;
+      justify-self: end;
+    }
+
+    &__social,
+    &__legal {
+      margin-top: 104px;
+    }
+
+    &__social {
+      justify-self: end;
+      order: 4;
+
+      &-list {
+        column-gap: 32px;
+      }
+    }
+
+    &__legal {
+      justify-self: start;
+    }
   }
 }
