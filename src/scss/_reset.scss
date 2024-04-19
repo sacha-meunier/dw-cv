@@ -1,214 +1,52 @@
-/*
- * Switch to border-box model for all elements
- * Avoid min-width: auto on flex and grid items
- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  min-width: 0;
-}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* Break words to prevent overflows */
-html {
-  overflow-wrap: break-word;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  min-height: 100dvh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* Remove default margin and padding */
-*:where(body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  figure,
-  blockquote,
-  dl,
-  dd) {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
-}
-
-/* Remove list styles if they have a class */
-*:where(ol, ul):where([class]) {
-  list-style: none;
-  padding-left: 0;
-}
-
-/* Prevent elements to exceed their container */
-*:where(img,
-  table,
-  td,
-  blockquote,
-  pre,
-  code,
-  input,
-  textarea,
-  select,
-  video,
-  svg,
-  iframe) {
-  max-width: 100%;
-}
-
-/* Keep aspect-ratio */
-*:where(iframe,
-  img,
-  input,
-  select,
-  textarea) {
-  height: auto;
-}
-
-/* Give links default styles */
-:where(a:not([class])) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Styles for tables */
-:where(table) {
-  table-layout: fixed;
-  border-collapse: collapse;
-  vertical-align: top;
-}
-
-/* Remove border on images and iframes */
-:where(img,
-  iframe) {
-  border-style: none;
-}
-
-/* Fill color matching to text color */
-:where(svg:not([fill])) {
-  fill: currentColor;
-}
-
-/*
- * 1. Change the inconsistent appearance in all browsers.
- * 2. Add typography inheritance in all browsers.
- */
-:where(input,
-  button,
-  textarea,
-  select) {
-  margin: 0;
-  background-color: transparent; /* 1 */
-  color: inherit; /* 1 */
-  font-family: inherit; /* 2 */
-  font-size: inherit; /* 2 */
-  line-height: inherit; /* 2 */
-  letter-spacing: inherit; /* 2 */
-  vertical-align: middle;
-}
-
-/*
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-:where(pre,
-code,
-kbd,
-samp) {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-:where(pre) {
-  tab-size: 2;
-  white-space: pre-wrap;
-  line-height: normal;
-  overflow: auto;
-}
-
-:where(form,
-fieldset) {
-  border: none;
-}
-
-:where(fieldset) {
-  margin: 0;
-  padding: 1em;
-}
-
-:where(legend) {
-  max-width: 100%;
   border: 0;
-  color: inherit;
-  white-space: normal;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-:where(label) {
-  display: inline-block;
-  cursor: pointer;
-}
-
-:where(textarea) {
-  overflow: auto;
-  vertical-align: top;
-  resize: vertical;
-  white-space: pre-wrap;
-}
-
-/*
- * Change the cursor on busy elements in all browsers.
- */
-
-:where([aria-busy="true"]) {
-  cursor: progress;
-}
-
-/*
- * Change the cursor on control elements in all browsers.
- */
-
-:where([aria-controls]) {
-  cursor: pointer;
-}
-
-/*
- * Change the cursor on disabled, not-editable, or otherwise
- * inoperable elements in all browsers.
- */
-
-:where([aria-disabled="true"],
-[disabled]) {
-  cursor: not-allowed;
-}
-
-/*
- * Change the display on visually hidden accessible elements
- * in all browsers.
- */
-
-:where([aria-hidden="false"][hidden]) {
-  display: revert;
-}
-
-:where([aria-hidden="false"][hidden]:not(:focus)) {
-  clip: rect(0, 0, 0, 0);
-  position: absolute;
-}
-
-/* Remove all animations on demand */
-@media (prefers-reduced-motion: reduce) {
-
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-  }
+* {
+  box-sizing: border-box;
 }
