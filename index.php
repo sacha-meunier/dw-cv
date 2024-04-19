@@ -21,8 +21,8 @@
     <meta property="og:image" content="/content/images/logo-menu.svg">
     <meta property="og:image:alt" content="Le logo de Sacha Meunier"/>
 
-    <!--<link rel="icon" type="image/svg+xml" href="./favicon.svg"/>-->
-    <!--<link rel="alternate icon" href="/favicon.ico"/>-->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg"/>
+    <link rel="alternate icon" href="/favicon.ico"/>
 </head>
 <body>
 <main>
