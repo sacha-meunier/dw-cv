@@ -26,6 +26,7 @@
 </head>
 <body>
 <main>
+    <?php include 'src/php/contact.php'?>
 </main>
 
 <?php include 'src/php/footer.php'?>
