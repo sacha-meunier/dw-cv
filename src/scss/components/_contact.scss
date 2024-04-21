@@ -86,7 +86,7 @@
   .contact {
 
     &__wrapper {
-      padding: 80px 24px 160px;
+      padding: 150px 24px 160px;
     }
 
     &__title {
@@ -98,6 +98,9 @@
       }
     }
 
+    &__logo {
+      top: 10%;
+    }
     &__description {
       font-size: $fs-26;
       line-height: 42px;
