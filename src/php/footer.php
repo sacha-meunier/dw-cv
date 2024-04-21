@@ -44,7 +44,7 @@
                     </li>
                     <li class="footer__nav-item"><a class="footer__nav-link"
                                                     href="https://www.pinterest.fr/">Pinterest</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://dribbble.com">Dribble</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://dribbble.com">Dribbble</a>
                     </li>
                     <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.a11yproject.com/">A11Y
                             Project</a></li>
@@ -59,7 +59,7 @@
             <ul class="footer__social-list">
                 <li><a class="footer__social-logo-link" href="https://dribbble.com/Zekiahs"><img class="footer__social-logo-item" loading="lazy"
                                                                 src="../../content/images/icon-dribble.svg"
-                                                                alt="Icône de Dribble" width="24" height="24"></a></li>
+                                                                alt="Icône de Dribbble" width="24" height="24"></a></li>
                 <li><a class="footer__social-logo-link" href="https://twitter.com/ZekiahVFX"><img class="footer__social-logo-item" loading="lazy"
                                                                  src="../../content/images/icon-twitter.svg"
                                                                  alt="Icône de Twitter" width="24" height="24"></a></li>
@@ -85,7 +85,7 @@
                          alt="Icône de Location" width="18" height="18">
                     <p class="footer__location-text">Faimes, Belgique</p>
                 </div>
-                <p class="footer__copyright">© 2023 Zekiah. Tous droits réservés.</p>
+                <p class="footer__copyright">© 2024 Zekiah. Tous droits réservés.</p>
             </div>
         </section>
     </div>
