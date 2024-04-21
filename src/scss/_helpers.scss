@@ -7,3 +7,24 @@
   padding: 0;
   border: 0;
 }
+
+// Adds a Hover and a Focus animation that scales a rectangle from 0 to 100%
+// Note : the element on which you call the function needs position : relative
+@mixin hover-animation($background, $transition) {
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: $background;
+    width: 0%;
+    height: 100%;
+    transition: $transition;
+  }
+
+  &:hover:before,
+  &:focus:before {
+    width: 100%;
+  }
+}
