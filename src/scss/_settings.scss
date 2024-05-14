@@ -24,7 +24,7 @@ $fs-68: 4.25rem;
 
 $white : #fff;
 $light-grey : rgba(255, 255, 255, 0.64);
-$border-grey : rgba(0, 0, 0, 0.2);
+$border-grey : rgba(0, 0, 0, 0.1);
 $grey : rgb(102, 95, 130);
 $black : #0f0928;
 $blue : #2b00d4;
@@ -33,6 +33,30 @@ $purple-l : rgb(95, 66, 129);
 $purple-d : rgb(76, 37, 90);
 $orange : rgb(207, 92, 55);
 
+$bg-black: #1d1e24;
+$bg-purple: #612570;
+$bg-blue: #15377c;
+$bg-cyan: #5ec9a5;
+$bg-orange: #d3563d;
+$bg-ocean: #4b94f8;
+
+$shadow-black:rgba(0, 0, 0, .2);
+$shadow-purple:rgba(105, 31, 116, .25);
+$shadow-blue:rgba(10, 53, 127, .2);
+$shadow-cyan:rgba(8, 204, 161, .2);
+$shadow-orange:rgba(227, 75, 49, .2);
+$shadow-ocean:rgba(40, 151, 246, .2);
+
 $clr-blue-hover : rgba(43, 0, 212, .05);
 $clr-white-hover : rgba(255, 255, 255, .1);
 $clr-dark-hover : rgba(2, 1, 7, .05);
+
+$padding-sides-small: 24px;
+$padding-sides-medium: 32px;
+$padding-sides-large: 50px;
+$padding-sides-xlarge: 60px;
+
+$margin-sides-small: $padding-sides-small;
+$margin-sides-medium: $padding-sides-medium;
+$margin-sides-large: $padding-sides-large;
+$margin-sides-xlarge: $padding-sides-xlarge;
