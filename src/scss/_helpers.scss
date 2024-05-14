@@ -1,3 +1,6 @@
+@import "src/scss/settings";
+
+// Class for Screen Readers Only
 .sro {
   position: absolute;
   overflow: hidden;
@@ -26,5 +29,71 @@
   &:hover:before,
   &:focus:before {
     width: 100%;
+  }
+}
+
+// Creates a separator line after the content.
+@mixin separator($color, $margin) {
+  &:after {
+    content: "";
+    display: block;
+    background: $color;
+    height: 1px;
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+}
+
+@mixin padding-sides {
+  padding-left: $padding-sides-small;
+  padding-right: $padding-sides-small;
+
+  @media (min-width: 480px) {
+    padding-left: $padding-sides-medium;
+    padding-right: $padding-sides-medium;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: $padding-sides-large;
+    padding-right: $padding-sides-large;
+  }
+
+  @media (min-width: 992px) {
+    padding-left: $padding-sides-xlarge;
+    padding-right: $padding-sides-xlarge;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+  }
+}
+
+@mixin margin-sides {
+  margin-left: $margin-sides-small;
+  margin-right: $margin-sides-small;
+
+  @media (min-width: 480px) {
+    margin-left: $margin-sides-medium;
+    margin-right: $margin-sides-medium;
+  }
+
+  @media (min-width: 768px) {
+    margin-left: $margin-sides-large;
+    margin-right: $margin-sides-large;
+  }
+
+  @media (min-width: 992px) {
+    margin-left: $margin-sides-xlarge;
+    margin-right: $margin-sides-xlarge;
+  }
+
+  @media (min-width: 1280px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
   }
 }
