@@ -1,0 +1,418 @@
+@import "src/scss/settings";
+@import "src/scss/helpers";
+
+.skills {
+  container-type: inline-size;
+  container-name: skills;
+
+  @include separator($border-grey, 20px);
+
+  &__heading {
+    padding-top: 130px;
+    @include margin-sides;
+  }
+
+  &__title {
+    font-family: $ff-sb;
+    font-size: $fs-36;
+
+    &--primary {
+      display: block;
+      color: $blue;
+    }
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__carousel {
+    padding-top: 48px;
+
+    padding-bottom: 56px;
+    @include padding-sides;
+
+    max-height: 512px;
+    height: 512px;
+    overflow-x: auto;
+    overflow-y: clip;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    grid-template-areas:
+    "a b d e"
+    "a c d f";
+  }
+
+  &__card {
+    max-width: 300px;
+    width: max-content;
+    height: 100%;
+
+    text-decoration: none;
+    cursor: default;
+    color: $white;
+
+    &--thin {
+      padding-bottom: 32px;
+    }
+
+    &--large {
+      display: flex;
+      min-width: 517px;
+      width: 517px;
+
+      .skills__card-media {
+        max-width: 39%;
+        width: 100%;
+      }
+    }
+
+    &--a {
+      grid-area: a;
+      background-color: $bg-black;
+      box-shadow: 17px 17px 40px 1px $shadow-black;
+    }
+
+    &--b {
+      grid-area: b;
+      background-color: $bg-purple;
+      box-shadow: 17px 17px 30px 1px $shadow-purple;
+    }
+
+    &--c {
+      grid-area: c;
+      background-color: $bg-blue;
+      box-shadow: 17px 17px 30px 1px $shadow-blue;
+    }
+
+    &--d {
+      grid-area: d;
+      background-color: $bg-cyan;
+      box-shadow: 17px 17px 30px 1px $shadow-cyan;
+    }
+
+    &--e {
+      grid-area: e;
+      background-color: $bg-orange;
+      box-shadow: 17px 17px 30px 1px $shadow-orange;
+    }
+
+    &--f {
+      grid-area: f;
+      background-color: $bg-ocean;
+      box-shadow: 17px 17px 30px 1px $shadow-ocean;
+    }
+
+    &-media {
+      position: relative;
+      max-height: 225px;
+      height: 100%;
+    }
+
+    &-content {
+      padding-top: 48px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    &-title {
+      font-family: $ff-sb;
+      font-size: $fs-20;
+    }
+
+    &-copy {
+      margin-top: 15px;
+      font-family: $ff-l;
+      font-size: $fs-16;
+      line-height: 22px;
+      color: rgba(255, 255, 255, .8);
+    }
+  }
+
+  &__slider {
+    margin: 40px 0 0;
+    position: relative;
+
+    &-column {
+      overflow-x: auto;
+      overflow-y: clip;
+
+      padding-bottom: 56px;
+      @include padding-sides;
+    }
+
+    &-row {
+      display: flex;
+      gap: 12px;
+    }
+
+    &-row + &-row {
+      margin-top: 12px;
+    }
+
+    &-item {
+      flex: none;
+      font-family: $ff-sb;
+      font-size: $fs-14;
+      line-height: 16px;
+      color: #665f82;
+
+      padding: 8px 16px;
+      background-color: $white;
+      border: 1px solid rgba(0, 0, 0, .2);
+    }
+  }
+
+  &__control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    translate: 0 16px;
+
+    &-arrow {
+      display: flex;
+      align-items: center;
+      background-color: $white;
+      cursor: pointer;
+    }
+
+    &-separator {
+      width: 100%;
+      height: 1px;
+      background-color: $border-grey;
+    }
+  }
+
+  &__button {
+    margin-top: 80px;
+    @include margin-sides;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+
+    background-color: $white;
+    border: 1px solid $blue;
+
+    @include hover-animation($clr-blue-hover, all .2s ease);
+
+    &-link {
+      font-family: $ff-sb;
+      font-size: $fs-13;
+      line-height: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      color: $blue;
+    }
+  }
+}
+
+@container skills (min-width: 480px) {
+  .skills {
+    &__slider {
+      &-item {
+        padding: 16px;
+      }
+    }
+    &__card {
+      &-content {
+        padding-top: 48px;
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+    }
+    &__button {
+      margin: 80px auto;
+      max-width: 262px;
+    }
+  }
+}
+
+@container skills (min-width: 768px) {
+  .skills {
+    &__heading {
+      padding-top: 175px;
+    }
+
+    &__title {
+      font-family: $ff-b;
+      font-size: $fs-68;
+    }
+
+    &__carousel {
+      margin-top: 80px;
+      padding-bottom: 120px;
+      max-height: 738px;
+      height: 738px;
+      gap: 48px;
+    }
+
+    &__card {
+      max-width: 475px;
+
+      &--thin {
+        padding-bottom: 48px;
+      }
+
+      &--large {
+        min-width: 636px;
+        width: 636px;
+
+        .skills__card-content {
+          padding-top: 65px;
+          padding-left: 0;
+        }
+      }
+      &-content {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      &-media {
+        max-height: 356px;
+      }
+
+      &-title {
+        font-size: $fs-26;
+      }
+
+      &-copy {
+        margin-top: 20px;
+        font-size: $fs-20;
+        line-height: 1.5;
+      }
+
+      &--a {
+        box-shadow: 34px 34px 60px 1px $shadow-black
+      }
+
+      &--b {
+        box-shadow: 34px 34px 60px 1px $shadow-purple
+      }
+
+      &--c {
+        box-shadow: 34px 34px 60px 1px $shadow-blue
+      }
+
+      &--d {
+        box-shadow: 34px 34px 60px 1px $shadow-cyan
+      }
+
+      &--e {
+        box-shadow: 34px 34px 60px 1px $shadow-orange
+      }
+
+      &--f {
+        box-shadow: 34px 34px 60px 1px $shadow-ocean;
+      }
+    }
+
+    &__slider {
+      margin: 80px 0 0;
+
+      &-row {
+        gap: 16px;
+      }
+
+      &-row + &-row {
+        margin-top: 16px;
+      }
+
+      &-item {
+        font-size: $fs-20;
+        line-height: 20px;
+        padding: 24px;
+      }
+    }
+
+    &__button {
+      margin: 120px auto;
+      width: 262px;
+      height: 64px;
+
+      &-link {
+        font-size: $fs-16;
+      }
+    }
+  }
+}
+
+@container skills (min-width: 992px) {
+  .skills::after {
+    display: none;
+  }
+
+  .skills {
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 240px;
+    }
+
+    &__nav {
+      display: inline-flex;
+      align-self: flex-end;
+    }
+
+    &__button {
+      &--text,
+      &--arrow {
+        margin: 0;
+      }
+
+      &--text {
+        margin-right: 24px;
+      }
+
+      &--arrow {
+        max-width: 62px;
+      }
+
+      &--arrow + &--arrow {
+        border-left: 0;
+      }
+
+      &--end {
+        display: none;
+      }
+    }
+
+    &__carousel {
+      padding-bottom: 90px;
+    }
+
+    &__card {
+      &-content {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+    }
+
+    &__control {
+      max-width: 1160px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@container skills (min-width: 1280px) {
+  .skills {
+    &__carousel {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: calc(50% - 580px);
+      padding-right: calc(50% - 580px);
+      max-width: unset;
+      width: 100%;
+    }
+  }
+}
