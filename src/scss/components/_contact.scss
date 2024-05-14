@@ -9,7 +9,9 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 24px 120px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    @include padding-sides;
     max-width: 1440px;
     width: 100%;
     text-align: center;
@@ -17,7 +19,7 @@
 
   &__logo {
     position: absolute;
-    top: 3%;
+    top: 6%;
     right: 0;
     left: 0;
     margin: 0 auto;
@@ -82,11 +84,12 @@
   }
 }
 
-@container contact (min-width: 767px) {
+@container contact (min-width: 768px) {
   .contact {
 
     &__wrapper {
-      padding: 150px 24px 160px;
+      padding-top: 150px;
+      padding-bottom: 160px;
     }
 
     &__title {
