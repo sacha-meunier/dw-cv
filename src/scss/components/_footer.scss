@@ -8,7 +8,9 @@
   &__wrapper {
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 24px 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    @include padding-sides;
     max-width: 1280px;
     width: 100%;
   }
@@ -101,7 +103,6 @@
       clip-path: circle(50%);
 
       @include hover-animation($clr-blue-hover, all .2s ease);
-
     }
   }
 
@@ -135,7 +136,9 @@
   .footer {
 
     &__wrapper {
-      padding: 20px 32px 40px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      @include padding-sides;
     }
 
     &__logo-image {
@@ -161,7 +164,8 @@
 @container footer (min-width: 768px) {
   .footer {
     &__wrapper {
-      padding: 64px 60px 40px;
+      padding-top: 64px;
+      padding-bottom: 40px;
     }
   }
 }
@@ -172,7 +176,6 @@
       display: grid;
       grid-template-columns: auto 1fr;
       justify-content: space-between;
-      padding: 64px 60px 40px;
     }
 
     &__about {
