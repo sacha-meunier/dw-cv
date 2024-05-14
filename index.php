@@ -26,6 +26,8 @@
 </head>
 <body>
 <main>
+    <?php include 'src/php/skills.php'?>
+    <?php include 'src/php/hobbys.php'?>
     <?php include 'src/php/contact.php'?>
 </main>
 
