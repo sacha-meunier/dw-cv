@@ -1,4 +1,4 @@
-@import "src/scss/settings";
+@import "config/settings";
 
 // Class for Screen Readers Only
 .sro {
@@ -13,16 +13,16 @@
 
 // Adds a Hover and a Focus animation that scales a rectangle from 0 to 100%
 // Note : the element on which you call the function needs position : relative
-@mixin hover-animation($background, $transition) {
+@mixin hover-animation($background, $transition, $height) {
   &:before {
     content: "";
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     display: block;
     background: $background;
     width: 0%;
-    height: 100%;
+    height: $height;
     transition: $transition;
   }
 
