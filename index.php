@@ -25,6 +25,7 @@
     <link rel="alternate icon" href="/favicon.ico"/>
 </head>
 <body>
+<?php include 'src/php/header.php'?>
 <main>
     <?php include 'src/php/skills.php'?>
     <?php include 'src/php/hobbys.php'?>
