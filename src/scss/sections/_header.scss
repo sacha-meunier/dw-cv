@@ -1,0 +1,70 @@
+@import "../config/settings";
+@import "../helpers";
+
+.header {
+  //container-type: inline-size;
+  //container-name: header;
+
+  &__wrapper {
+    margin-top: 24px;
+    @include margin-sides;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contact {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+  .header {
+    &__content {
+      margin-top: 32px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    &__logo-item {
+      width: 144px;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    &__contact {
+      display: flex;
+      margin-right: 68px;
+      width: 164px;
+      height: 52px;
+
+      justify-content: center;
+      align-items: center;
+
+      background-color: $blue;
+
+      position: relative;
+      @include hover-animation($clr-white-10-hover, .2s ease, 100%);
+
+      &-text {
+      color: $white;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      font-size: $fs-14;
+      font-family: $ff-b;
+
+      }
+    }
+  }
+}
+
+/*
+@media (min-width: 1280px) {
+
+}*/
