@@ -1,5 +1,5 @@
-@import "src/scss/settings";
-@import "src/scss/helpers";
+@import "../config/settings";
+@import "../helpers";
 
 .contact {
   container-type: inline-size;
@@ -46,42 +46,6 @@
     line-height: 32px;
     max-width: 800px;
   }
-
-  &__button {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    max-width: 225px;
-    height: 65px;
-    margin: 80px auto 0;
-    color: $white;
-    background-color: $blue;
-    text-decoration: none;
-
-    @include hover-animation($clr-white-hover, all .2s ease);
-
-    &-text {
-      font-family: $ff-b;
-      font-size: $fs-13;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
-    &-icon {
-      display: block;
-      margin: auto;
-
-      &-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 0 20px;
-        border-left: 2px solid $white;
-      }
-    }
-  }
 }
 
 @container contact (min-width: 768px) {
@@ -104,24 +68,10 @@
     &__logo {
       top: 10%;
     }
+
     &__description {
       font-size: $fs-26;
       line-height: 42px;
-    }
-
-    &__button {
-      max-width: 268px;
-      margin: 100px auto 0;
-
-      &-text {
-        font-size: $fs-16;
-        letter-spacing: 1.17px;
-      }
-
-      &-icon {
-        width: 25px;
-        height: 25px;
-      }
     }
   }
 }

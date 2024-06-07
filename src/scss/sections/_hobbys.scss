@@ -1,5 +1,5 @@
-@import "src/scss/settings";
-@import "src/scss/helpers";
+@import "../config/settings";
+@import "../helpers";
 
 .hobbys {
   container-type: inline-size;

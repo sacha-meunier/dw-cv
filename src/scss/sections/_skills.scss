@@ -1,5 +1,5 @@
-@import "src/scss/settings";
-@import "src/scss/helpers";
+@import "../config/settings";
+@import "../helpers";
 
 .skills {
   container-type: inline-size;
@@ -202,7 +202,7 @@
     background-color: $white;
     border: 1px solid $blue;
 
-    @include hover-animation($clr-blue-hover, all .2s ease);
+    @include hover-animation($clr-blue-hover, all .2s ease, 100%);
 
     &-link {
       font-family: $ff-sb;

@@ -1,5 +1,5 @@
-@import "src/scss/settings";
-@import "src/scss/helpers";
+@import "../config/settings";
+@import "../helpers";
 
 .footer {
   container-type: inline-size;
@@ -51,7 +51,7 @@
     text-transform: uppercase;
     text-decoration: none;
 
-    @include hover-animation($clr-blue-hover, all .2s ease);
+    @include hover-animation($clr-blue-hover, all .2s ease, 100%);
   }
 
   &__nav {
@@ -102,7 +102,7 @@
       border-radius: 50%;
       clip-path: circle(50%);
 
-      @include hover-animation($clr-blue-hover, all .2s ease);
+      @include hover-animation($clr-blue-hover, all .2s ease, 100%);
     }
   }
 
