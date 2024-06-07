@@ -1,7 +1,18 @@
 @import "reset";
+
+// load config & vars
+
+// load mixins
 @import "helpers";
 
-@import "components/skills";
-@import "components/hobbys";
-@import "components/contact";
-@import "components/footer";
+// load components
+@import "components/contact-button";
+@import "components/toggler";
+
+// load sections
+@import "sections/base";
+@import "sections/skills";
+@import "sections/hobbys";
+@import "sections/contact";
+@import "sections/footer";
+@import "sections/header";
