@@ -24,6 +24,8 @@
     cursor: pointer;
     background-color: $white;
     box-shadow: 8px 8px 40px 1px rgba(96, 96, 116, 0.14);
+
+    @include hover-animation($clr-blue-hover, all .2s ease, 100%);
   }
 
   &__line {
@@ -52,7 +54,7 @@
     right: 0;
 
     background-color: $bg-black;
-    transition: 500ms ease;
+    transition: transform 500ms ease;
     transform: translateX(100%);
   }
 
@@ -100,7 +102,7 @@
     background-color: $white;
     color: $black;
     text-align: center;
-
+    @include hover-animation($clr-blue-hover, all .2s ease, 100%);
     &-icon-wrapper {
       border-left: 1px solid $black;
     }
@@ -115,6 +117,18 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+
+    &-logo-link {
+      display: grid;
+      position: relative;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      clip-path: circle(50%);
+
+      @include hover-animation($clr-white-10-hover, all .2s ease, 100%);
     }
   }
 
