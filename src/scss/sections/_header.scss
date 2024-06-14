@@ -2,9 +2,6 @@
 @import "../helpers";
 
 .header {
-  //container-type: inline-size;
-  //container-name: header;
-
   &__wrapper {
     margin-top: 24px;
     @include margin-sides;
@@ -58,13 +55,7 @@
 
       font-size: $fs-14;
       font-family: $ff-b;
-
       }
     }
   }
 }
-
-/*
-@media (min-width: 1280px) {
-
-}*/
