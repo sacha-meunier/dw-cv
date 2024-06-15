@@ -22,3 +22,17 @@ Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivan
 1. Télécharger ou clonez ce dépôt sur votre machine locale ;
 2. Exécuter la commande `npm install` dans le terminal ;
 3. Exécuter la commande `mix watch` et ouvrez la page dans votre navigateur.
+
+## TODO
+- [x] Hero section - version desktop
+- [ ] Ajouter les expériences pro
+- [ ] Ajouter Les avis des clients
+- [ ] Ajouter les formations
+- [ ] Ajouter les images
+- [ ] Ajouter les microdatas
+- [ ] Magnetic sur les boutons
+- [ ] Parallax sur les cartes
+- [ ] Toggler, devient noir au scroll
+- [ ] Compétences - faire fonctionner les flèches
+- [ ] Ajouter les alt sur les images
+- [ ] Vérifier les titres en html 4 et 5
