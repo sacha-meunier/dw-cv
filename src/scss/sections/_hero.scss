@@ -1,0 +1,223 @@
+@import "../config/settings";
+@import "../helpers";
+
+.hero {
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__content {
+    @include margin-sides;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    order: 2;
+    margin-bottom: 58px;
+
+    font-family: $ff-b;
+    font-size: $fs-38;
+    line-height: 48px;
+    color: $blue;
+
+    &--black {
+      color: $black;
+    }
+  }
+
+  .rotating-wrapper {
+    order: 1;
+    position: relative;
+    width: 100%;
+    height: 15px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .rotating-txt {
+    position: relative;
+    font-size: $fs-12;
+    font-family: $ff-black;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .word {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    line-height: 16px;
+    transition: transform 0.3s cubic-bezier(0, 0, 1, 1);
+  }
+
+  .word + .word {
+    transform: translateY(100%);
+  }
+
+  &__button-wrapper {
+    margin-bottom: 128px;
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  &__button {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 148px;
+    min-height: 48px;
+
+    font-family: $ff-b;
+    font-size: $fs-13;
+    line-height: 15px;
+    letter-spacing: 1.17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white;
+    background-color: $blue;
+
+    @include hover-animation($clr-white-10-hover, all .2s ease, 100%);
+
+    &--white {
+      color: $black;
+      background-color: $white;
+      box-shadow: 8px 8px 40px 1px rgba(96, 96, 116, 0.14);
+      @include hover-animation($clr-blue-hover, all .2s ease, 100%);
+    }
+  }
+
+  &__copy {
+    max-width: 640px;
+    padding-left: 20px;
+    order: 4;
+    font-family: $ff-r;
+    font-size: $fs-18;
+    line-height: 32px;
+    border-left: 2px solid $blue;
+    color: $black;
+  }
+
+  &__banner {
+    position: relative;
+    width: 100%;
+    height: 275px;
+    background-color: #665f82;
+  }
+}
+
+@media (min-width: 480px) {
+  .hero {
+
+    &__button {
+      max-width: 164px;
+      height: 52px;
+    }
+
+    &__button-wrapper {
+      justify-content: start;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+
+    &__title {
+      font-size: $fs-64;
+      line-height: 74px;
+    }
+
+    &__banner {
+      margin-top: 106px;
+      height: 425px;
+    }
+
+    & .rotating-wrapper {
+      margin-bottom: 40px;
+    }
+
+    &__button {
+      height: 56px;
+
+      &-wrapper {
+        margin-bottom: 160px;
+      }
+    }
+
+    &__copy {
+      max-width: 640px;
+      font-size: $fs-26;
+      font-family: $ff-l;
+      line-height: 42px;
+    }
+  }
+  .rotating-txt .word {
+    font-size: $fs-17;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    margin-top: 120px;
+
+    &__wrapper {
+      position: relative;
+    }
+
+    &__content {
+      z-index: 50;
+      max-width: 1160px;
+      width: 100%;
+    }
+
+    &__banner {
+      z-index: 10;
+      right: 0;
+      top: -8%;
+      max-width: 50%;
+      position: absolute;
+    }
+
+    &__title {
+      margin-bottom: 82px;
+    }
+
+    .rotating-wrapper {
+      margin-bottom: 100px;
+    }
+
+    .rotating-txt .word {
+      font-size: $fs-15;
+    }
+
+    &__button:first-of-type {
+      display: none;
+    }
+
+    &__button--white {
+      max-width: fit-content;
+      padding: 0 40px;
+      height: 88px;
+      font-size: $fs-15;
+    }
+
+    &__copy {
+      border-left: 4px solid $blue;
+      padding-left: 64px;
+    }
+  }
+}
