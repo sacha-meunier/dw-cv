@@ -1,0 +1,32 @@
+@import "../config/settings";
+
+#trailer-holder {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 9000;
+}
+
+#trailer {
+  height: 7px;
+  width: 7px;
+  border-radius: 20px;
+  z-index: 9999;
+
+  pointer-events: none;
+  opacity: 1;
+  background-color: $blue;
+  transition: background-color 500ms ease;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#trailer.colorful {
+  background-color: $clr-blue-hover;
+}
+
+#trailer.white {
+  background-color: $clr-white-10-hover;
+}
