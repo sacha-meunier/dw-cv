@@ -2,18 +2,22 @@
 
 // load config & vars
 @import "config/utility";
-// load mixins
-@import "helpers";
+
+// load helpers
+@import "helpers/helpers";
+@import "helpers/scrollAnimations";
 
 // load components
 @import "components/contact-button";
 @import "components/toggler";
+@import "components/trailer";
 
 // load sections
-@import "sections/base";
 @import "sections/header";
 @import "sections/hero";
 @import "sections/project";
+@import "sections/testimonials";
+@import "sections/formation";
 @import "sections/skills";
 @import "sections/hobbys";
 @import "sections/contact";
