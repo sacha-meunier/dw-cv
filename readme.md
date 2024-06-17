@@ -24,15 +24,19 @@ Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivan
 3. Exécuter la commande `mix watch` et ouvrez la page dans votre navigateur.
 
 ## TODO
-- [x] Hero section - version desktop
-- [ ] Ajouter les expériences pro
-- [ ] Ajouter Les avis des clients
-- [ ] Ajouter les formations
+- [x] Hero Section
+- [x] Projets
+- [x] Avis des clients
+- [x] Formations
+- [x] Animation au scroll
+- [x] Toggler, devient noir au scroll
+- [x] Avis des clients - faire fonctionner les flèches
+- [x] Compétences - faire fonctionner les flèches
+- [x] Changer les infos des projets
+- [x] Magnetic sur les boutons
+- [x] Parallax sur les cartes
+- [x] Ajouter le trailer
 - [ ] Ajouter les images
-- [ ] Ajouter les microdatas
-- [ ] Magnetic sur les boutons
-- [ ] Parallax sur les cartes
-- [ ] Toggler, devient noir au scroll
-- [ ] Compétences - faire fonctionner les flèches
 - [ ] Ajouter les alt sur les images
 - [ ] Vérifier les titres en html 4 et 5
+- [ ] Ajouter les microdatas
