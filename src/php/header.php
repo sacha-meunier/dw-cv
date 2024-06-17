@@ -1,7 +1,7 @@
 <header class="header" role="banner">
     <div class="header__wrapper">
         <h1 data-animate="slide-up">
-            <a class="header__logo" data-action="trailer" href="#" aria-label="CV - homepage">
+            <a class="header__logo" data-action="trailer" href="/" aria-label="CV - Sacha Meunier">
                 <img class="header__logo-item" src="/content/images/header-logo.svg"
                      alt="Zekiah - retour à l'accueil"
                      itemprop="logo" width="112" height="40">
@@ -13,14 +13,14 @@
 
             <div class="nav-toggler">
                 <input class="nav-toggler__input" id="toggler" type="checkbox" aria-controls="primary-nav"
-                       aria-expanded="false"/>
+                       aria-expanded="false" aria-label="Ouvrir la navigation"/>
 
-                <label class="nav-toggler__label" data-animate="slide-up" for="toggler" aria-label="Toggle navigation">
+                <label class="nav-toggler__label" data-animate="slide-up" for="toggler" aria-label="Basculer la navigation">
                     <span class="nav-toggler__line"></span>
                     <span class="nav-toggler__line"></span>
                 </label>
 
-                <nav class="nav-toggler__nav" id="primary-nav" role="navigation" aria-label="Mobile navigation">
+                <nav class="nav-toggler__nav" id="primary-nav" role="navigation" aria-label="Navigation mobile">
                     <h2 class="sro">Navigation</h2>
                     <ul class="nav-toggler__list">
                         <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link nav-toggler__link--active" href="#">Accueil</a></li>
@@ -56,15 +56,15 @@
                                             src="../../content/images/icon-youtube.svg"
                                             alt="Icône de Youtube" width="24" height="24"></a></li>
                             <li data-action="trailer" data-type="white"><a class="header__social-logo-link" href="#"><img class="header__social-logo-item"
-                                                                                  loading="lazy"
-                                                                                  src="../../content/images/icon-linkedin.svg"
-                                                                                  alt="Icône de Linkedin" width="24"
-                                                                                  height="24"></a></li>
+                                                                                                                          loading="lazy"
+                                                                                                                          src="../../content/images/icon-linkedin.svg"
+                                                                                                                          alt="Icône de Linkedin" width="24"
+                                                                                                                          height="24"></a></li>
                             <li data-action="trailer"><a class="header__social-logo-link" href="#"><img class="header__social-logo-item"
-                                                                                  loading="lazy"
-                                                                                  src="../../content/images/icon-tiktok.svg"
-                                                                                  alt="Icône de Tiktok" width="24"
-                                                                                  height="24"></a>
+                                                                                                        loading="lazy"
+                                                                                                        src="../../content/images/icon-tiktok.svg"
+                                                                                                        alt="Icône de Tiktok" width="24"
+                                                                                                        height="24"></a>
                             </li>
                         </ul>
                     </section>

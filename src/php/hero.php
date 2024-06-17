@@ -1,7 +1,7 @@
-<section class="hero">
+<section class="hero" aria-labelledby="hero-heading">
     <div class="hero__wrapper">
         <div class="hero__content">
-            <h1 class="hero__title" data-animate="slide-up-fade">
+            <h1 id="hero-heading" class="hero__title" data-animate="slide-up-fade">
                 Sacha Meunier
                 <br>
                 <span class="hero__title--black">développeur web</span>

@@ -27,12 +27,12 @@
 <body>
 
 <div id="trailer-holder">
-    <div id="trailer"></div>
+    <div id="trailer" aria-hidden="true"></div>
 </div>
 
 <?php include 'src/php/header.php' ?>
 
-<main>
+<main role="main">
     <?php include 'src/php/hero.php' ?>
     <?php include 'src/php/project.php' ?>
     <?php include 'src/php/testimonials.php' ?>

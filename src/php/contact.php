@@ -1,6 +1,6 @@
-<section class="contact" id="contact">
+<section class="contact" id="contact" aria-labelledby="contact-heading">
     <div class="contact__wrapper">
-        <h2 class="sro">Contact</h2>
+        <h2 id="contact-heading" class="sro">Contact</h2>
         <img class="contact__logo" data-animate="fade-in" loading="lazy" src="/content/images/logo-low-opacity.svg" alt="Logo">
         <p class="contact__title" data-animate="slide-up-fade">
             Mon CV vous intéresse ?

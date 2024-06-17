@@ -1,13 +1,12 @@
-<section id="formation" class="formation-wrapper">
+<section id="formation" class="formation-wrapper" aria-labelledby="formation-heading">
     <div class="heading-middle-wrapper" data-animate="slide-up-fade">
-        <h2 class="heading-middle" role="heading" aria-level="2">Mes formations</h2>
+        <h2 id="formation-heading" class="heading-middle" role="heading" aria-level="2">Mes formations</h2>
     </div>
     <div class="formation-card-wrapper-holder">
         <div class="formation-card-sticky">
             <article class="formation-card-wrapper">
                 <div class="formation-heading-wrapper">
-                    <h3 class="formation-heading" role="heading" aria-level="3">Bachelier web
-                        développeur</h3>
+                    <h3 class="formation-heading" role="heading" aria-level="3">Bachelier web développeur</h3>
                     <div class="formation-banner-wrapper">
                         <!--<img
                                 loading="lazy"
@@ -26,8 +25,7 @@
                     </p>
                 </div>
                 <div class="formation-p-wrapper-1">
-                    <p class="formation-small-title formation-small-title-2">Développement web
-                        Back-end</p>
+                    <p class="formation-small-title formation-small-title-2">Développement web Back-end</p>
                     <p class="formation-p-1">
                         En tant que développeur backend, je m'attache à concevoir et à implémenter des architectures
                         robustes qui soutiennent efficacement les fonctionnalités essentielles des applications.
@@ -80,7 +78,7 @@
                     </p>
                     <p class="formation-p-2">
                         Depuis plusieurs années j'apprends le métier de monteur vidéo, afin de créer des vidéos qui
-                        suscitent l'attention des spectateurs du début à la fin
+                        suscitent l'attention des spectateurs du début à la fin.
                     </p>
                 </div>
                 <div class="formation-p-wrapper-2">
@@ -95,18 +93,17 @@
                     </p>-->
                 </div>
                 <div class="formation-divider"></div>
-                    <div class="formation-num-wrapper">
-                        <div class="formation-num-holder">
-                            <span class="formation-num">2020-2024</span>
-                        </div>
+                <div class="formation-num-wrapper">
+                    <div class="formation-num-holder">
+                        <span class="formation-num">2020-2024</span>
                     </div>
+                </div>
             </article>
         </div>
         <div class="formation-card-sticky formation-card-sticky--green">
             <article class="formation-card-wrapper">
                 <div class="formation-heading-wrapper">
-                    <h3 class="formation-heading" role="heading" aria-level="3">Bachelier technique
-                        graphique</h3>
+                    <h3 class="formation-heading" role="heading" aria-level="3">Bachelier technique graphique</h3>
                     <div class="formation-banner-wrapper">
                         <!--<img
                                 loading="lazy"
@@ -125,8 +122,7 @@
                     </p>
                 </div>
                 <div class="formation-p-wrapper-3">
-                    <p class="formation-small-title formation-small-title-2">Perfectionnement de mes
-                        designs
+                    <p class="formation-small-title formation-small-title-2">Perfectionnement de mes designs
                     </p>
                     <p class="formation-p-3">
                         Mes cours de graphisme m'ont permis de devenir excellent dans toutes les étapes de création
@@ -134,12 +130,10 @@
                     </p>
                 </div>
                 <div class="formation-p-wrapper-3">
-                    <p class="formation-small-title formation-small-title-2">Formation dans le domaine
-                        de la 3D.
+                    <p class="formation-small-title formation-small-title-2">Formation dans le domaine de la 3D.
                     </p>
                     <p class="formation-p-3">
-                        Grâce à mes cours de 3D, j'ai appris à créer des objects et des animations de hautes
-                        qualités.
+                        Grâce à mes cours de 3D, j'ai appris à créer des objets et des animations de haute qualité.
                     </p>
                 </div>
             </article>
