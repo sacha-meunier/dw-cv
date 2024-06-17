@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html class="no-js" lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,16 +25,24 @@
     <link rel="alternate icon" href="/favicon.ico"/>
 </head>
 <body>
-<?php include 'src/php/header.php'?>
+
+<div id="trailer-holder">
+    <div id="trailer"></div>
+</div>
+
+<?php include 'src/php/header.php' ?>
+
 <main>
-    <?php include 'src/php/hero.php'?>
-    <?php include 'src/php/project.php'?>
-    <?php include 'src/php/skills.php'?>
-    <?php include 'src/php/hobbys.php'?>
-    <?php include 'src/php/contact.php'?>
+    <?php include 'src/php/hero.php' ?>
+    <?php include 'src/php/project.php' ?>
+    <?php include 'src/php/testimonials.php' ?>
+    <?php include 'src/php/formation.php' ?>
+    <?php include 'src/php/skills.php' ?>
+    <?php include 'src/php/hobbys.php' ?>
+    <?php include 'src/php/contact.php' ?>
 </main>
 
-<?php include 'src/php/footer.php'?>
+<?php include 'src/php/footer.php' ?>
 
 <script src="dist/js/main.js"></script>
 </body>
