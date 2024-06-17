@@ -1,5 +1,5 @@
 @import "../config/settings";
-@import "src/scss/helpers";
+@import "../helpers/helpers";
 
 .nav-toggler {
 
@@ -24,7 +24,7 @@
     cursor: pointer;
     background-color: $white;
     box-shadow: 8px 8px 40px 1px rgba(96, 96, 116, 0.14);
-
+    transition: background-color .2s ease;
     @include hover-animation($clr-blue-hover, all .2s ease, 100%);
   }
 
