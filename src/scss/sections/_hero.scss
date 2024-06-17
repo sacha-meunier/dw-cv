@@ -1,5 +1,5 @@
 @import "../config/settings";
-@import "../helpers";
+@import "../helpers/helpers";
 
 .hero {
 
@@ -164,24 +164,19 @@
       line-height: 42px;
     }
   }
+
   .rotating-txt .word {
     font-size: $fs-17;
     line-height: 17px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 998px) {
   .hero {
     margin-top: 120px;
 
     &__wrapper {
       position: relative;
-    }
-
-    &__content {
-      z-index: 50;
-      max-width: 1160px;
-      width: 100%;
     }
 
     &__banner {
@@ -219,5 +214,11 @@
       border-left: 4px solid $blue;
       padding-left: 64px;
     }
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero__content {
+    width: 100%;
   }
 }

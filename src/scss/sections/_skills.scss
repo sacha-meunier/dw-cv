@@ -1,5 +1,5 @@
 @import "../config/settings";
-@import "../helpers";
+@import "../helpers/helpers";
 
 .skills {
   container-type: inline-size;
@@ -27,6 +27,7 @@
   }
 
   &__carousel {
+    scroll-behavior: smooth;
     padding-top: 48px;
 
     padding-bottom: 56px;
@@ -139,7 +140,7 @@
     &-column {
       overflow-x: auto;
       overflow-y: clip;
-
+      scroll-behavior: smooth;
       padding-bottom: 56px;
       @include padding-sides;
     }
@@ -374,6 +375,7 @@
 
       &--arrow {
         max-width: 62px;
+        cursor: pointer;
       }
 
       &--arrow + &--arrow {
