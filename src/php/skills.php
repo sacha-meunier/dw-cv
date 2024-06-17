@@ -4,31 +4,31 @@
     <div class="skills__wrapper">
 
         <div class="skills__heading">
-            <h2 class="skills__title">
+            <h2 class="skills__title" data-animate="slide-up-fade">
                 <span class="skills__title--primary">Mes</span>
                 Compétences
             </h2>
 
             <div class="skills__nav">
-                <a class="skills__button skills__button--text" href="#">
+                <a class="skills__button skills__button--text" data-magnetic="true" data-action="trailer" href="#">
                     <span class="skills__button-link">Mes compétences</span>
                 </a>
-                <a class="skills__button skills__button--arrow" href="#">
+                <div class="skills__button skills__button--arrow skills__button--arrow-left" data-animate="slide-left-fade" data-action="trailer">
                     <img class="skills__nav-arrow" src="/content/images/icon-arrow-left-slider.svg"
                          loading="lazy" alt="Icône flèche vers la gauche"
                          width="32px" height="32px">
-                </a>
-                <a class="skills__button skills__button--arrow" href="#">
+                </div>
+                <div class="skills__button skills__button--arrow skills__button--arrow-right" data-animate="slide-left-fade" data-action="trailer">
                     <img class="skills__nav-arrow" src="/content/images/icon-arrow-right-slider.svg"
                          loading="lazy" alt="Icône flèche vers la gauche"
                          width="32px" height="32px">
-                </a>
+                </div>
             </div>
         </div>
 
         <div class="skills__carousel">
             <!-- Card 1 -->
-            <a class="skills__card skills__card--thin skills__card--a" href="#">
+            <a class="skills__card skills__card--thin skills__card--a" data-action="trailer" href="#">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="" loading="lazy" alt="">
                 </div>
@@ -39,7 +39,7 @@
                 </div>
             </a>
             <!-- Card 2 -->
-            <a class="skills__card skills__card--large skills__card--b" href="#">
+            <a class="skills__card skills__card--large skills__card--b" data-action="trailer" href="#">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="" loading="lazy" alt="">
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </a>
             <!-- Card 3 -->
-            <a class="skills__card skills__card--large skills__card--c" href="#">
+            <a class="skills__card skills__card--large skills__card--c" data-action="trailer" href="#">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="" loading="lazy" alt="">
                 </div>
@@ -59,7 +59,7 @@
                 </div>
             </a>
             <!-- Card 4 -->
-            <a class="skills__card skills__card--thin skills__card--d" href="#">
+            <a class="skills__card skills__card--thin skills__card--d" data-action="trailer" href="#">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="" loading="lazy" alt="">
                 </div>
@@ -90,7 +90,7 @@
             </a>
         </div>
 
-        <div class="skills__slider">
+        <div class="skills__slider" data-animate="fade-in">
             <div class="skills__slider-column">
                 <div class="skills__slider-row">
                     <span class="skills__slider-item">HTML</span>
@@ -144,7 +144,7 @@
             </div>
         </div>
 
-        <a class="skills__button skills__button--end" href="#">
+        <a class="skills__button skills__button--end" href="#" data-action="trailer">
             <span class="skills__button-link">Mes compétences</span>
         </a>
     </div>

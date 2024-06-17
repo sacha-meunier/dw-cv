@@ -10,7 +10,7 @@
                 appareils,
                 pour tous les
                 utilisateurs et qui offrent une expérience satisfaisante.</p>
-            <a class="footer__button" href="#">Discutons</a>
+            <a class="footer__button" data-magnetic="true" data-action="trailer" href="#"><span>Discutons</span></a>
         </aside>
 
         <nav class="footer__nav">
@@ -18,37 +18,37 @@
             <div class="footer__nav-content">
                 <h3 class="footer__nav-title">Navigation</h3>
                 <ul class="footer__nav-list">
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Accueil</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Expérience</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Témoignages</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Formation</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Compétences</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Accueil</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Expérience</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Témoignages</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Formation</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Compétences</a></li>
                 </ul>
             </div>
             <div class="footer__nav-content">
                 <h3 class="footer__nav-title">Ressources</h3>
                 <ul class="footer__nav-list footer__nav-list--column">
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.alsacreations.com/">Alsacréations</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.alsacreations.com/">Alsacréations</a>
                     </li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://wakatime.com/">Wakatime</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://wakatime.com/">Wakatime</a>
                     </li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.evernote.design/">Evernote
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.evernote.design/">Evernote
                             Design</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.realtimecolors.com">Realtime
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.realtimecolors.com">Realtime
                             Colors</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.pillarstack.com/">PillarStack</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.pillarstack.com/">PillarStack</a>
                     </li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://stacksorted.com">Stack
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://stacksorted.com">Stack
                             Sorted</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.raycast.com/">Raycast</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.raycast.com/">Raycast</a>
                     </li>
                     <li class="footer__nav-item"><a class="footer__nav-link"
-                                                    href="https://www.pinterest.fr/">Pinterest</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://dribbble.com">Dribbble</a>
+                                                    data-action="trailer" href="https://www.pinterest.fr/">Pinterest</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://dribbble.com">Dribbble</a>
                     </li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://www.a11yproject.com/">A11Y
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://www.a11yproject.com/">A11Y
                             Project</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" href="https://github.com/whitecube/">WhiteCube</a>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="https://github.com/whitecube/">WhiteCube</a>
                     </li>
                 </ul>
             </div>
@@ -57,21 +57,21 @@
         <section class="footer__social">
             <h2 class="sro">Mes réseaux sociaux</h2>
             <ul class="footer__social-list">
-                <li><a class="footer__social-logo-link" href="https://dribbble.com/Zekiahs"><img class="footer__social-logo-item" loading="lazy"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://dribbble.com/Zekiahs"><img class="footer__social-logo-item" loading="lazy"
                                                                 src="../../content/images/icon-dribble.svg"
                                                                 alt="Icône de Dribbble" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" href="https://twitter.com/ZekiahVFX"><img class="footer__social-logo-item" loading="lazy"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://twitter.com/ZekiahVFX"><img class="footer__social-logo-item" loading="lazy"
                                                                  src="../../content/images/icon-twitter.svg"
                                                                  alt="Icône de Twitter" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" href="https://www.instagram.com/zekiahrr"><img class="footer__social-logo-item" loading="lazy"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.instagram.com/zekiahrr"><img class="footer__social-logo-item" loading="lazy"
                                                                       src="../../content/images/icon-instagram.svg"
                                                                       alt="Icône de Instagram" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" href="https://www.youtube.com/@Zekiah"><img class="footer__social-logo-item" loading="lazy"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.youtube.com/@Zekiah"><img class="footer__social-logo-item" loading="lazy"
                                                                    src="../../content/images/icon-youtube.svg"
                                                                    alt="Icône de Youtube" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-linkedin.svg"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-linkedin.svg"
                                      alt="Icône de Linkedin" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-tiktok.svg"
+                <li><a class="footer__social-logo-link" data-action="trailer" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-tiktok.svg"
                                      alt="Icône de Tiktok" width="24" height="24"></a>
                 </li>
             </ul>
