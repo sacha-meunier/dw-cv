@@ -1,0 +1,84 @@
+body.no-js .animate {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    transition: none;
+    animation: none;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+[data-animate="slide-up"] {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+[data-animate="slide-up-fade"] {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+[data-animate="slide-left-fade"] {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+[data-animate="fade-in"] {
+  opacity: 0;
+}
+
+/* Classes ajoutées par JavaScript */
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.animate.slide-up {
+  animation-name: slideUp;
+}
+
+.animate.slide-up-fade {
+  animation-name: slideUp;
+}
+
+.animate.slide-left-fade {
+  animation-name: slideLeft;
+}
+
+.animate.fade-in {
+  animation-name: fadeIn;
+}
