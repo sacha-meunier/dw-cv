@@ -89,11 +89,18 @@
 }
 
 .projects-card-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin-top: 40px;
   width: 100%;
   aspect-ratio: 1/1;
-  background-color: #4b94f8;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .card-highlight {
@@ -241,8 +248,12 @@
     position: absolute;
     width: 60%;
     top: 0;
-    right: 0;
+    right: -5%;
     margin-top: 0;
+
+    img {
+      width: 80%;
+    }
   }
   .projects-btn-wrapper {
     justify-content: center;

@@ -28,7 +28,7 @@
             <!-- Card 1 -->
             <a class="skills__card skills__card--thin skills__card--a" data-action="trailer" href="#" aria-labelledby="skills-card-title-1">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant le développement web">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le développement web">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-1" class="skills__card-title">Développement Web</p>
@@ -38,7 +38,7 @@
             <!-- Card 2 -->
             <a class="skills__card skills__card--large skills__card--b" data-action="trailer" href="#" aria-labelledby="skills-card-title-2">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant la création d'applications">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la création d'applications">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-2" class="skills__card-title">Créations d'applications</p>
@@ -48,7 +48,7 @@
             <!-- Card 3 -->
             <a class="skills__card skills__card--large skills__card--c" data-action="trailer" href="#" aria-labelledby="skills-card-title-3">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant le rebranding">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le rebranding">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-3" class="skills__card-title">Rebranding</p>
@@ -58,7 +58,7 @@
             <!-- Card 4 -->
             <a class="skills__card skills__card--thin skills__card--d" data-action="trailer" href="#" aria-labelledby="skills-card-title-4">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant la gestion de réseaux sociaux">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la gestion de réseaux sociaux">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-4" class="skills__card-title">Gestion de réseaux sociaux</p>
@@ -68,7 +68,7 @@
             <!-- Card 5 -->
             <a class="skills__card skills__card--large skills__card--e" data-action="trailer" href="#" aria-labelledby="skills-card-title-5">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant le montage vidéo">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le montage vidéo">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-5" class="skills__card-title">Montage vidéo</p>
@@ -78,7 +78,7 @@
             <!-- Card 6 -->
             <a class="skills__card skills__card--large skills__card--f" data-action="trailer" href="#" aria-labelledby="skills-card-title-6">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="" loading="lazy" alt="Image illustrant la photographie">
+                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la photographie">
                 </div>
                 <div class="skills__card-content">
                     <p id="skills-card-title-6" class="skills__card-title">Photographie</p>

@@ -48,6 +48,7 @@
   }
 
   &__card {
+    position: relative;
     max-width: 300px;
     width: max-content;
     height: 100%;
@@ -56,8 +57,20 @@
     cursor: default;
     color: $white;
 
+    &-img {
+      position: absolute;
+      bottom: 10%;
+      width: 100%;
+      height: auto;
+    }
+
     &--thin {
       padding-bottom: 32px;
+
+      .skills__card-img {
+        left: 10%;
+        width: 80%;
+      }
     }
 
     &--large {
