@@ -24,9 +24,9 @@
                     <h2 class="sro">Navigation</h2>
                     <ul class="nav-toggler__list">
                         <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link nav-toggler__link--active" href="#">Accueil</a></li>
-                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#">Expériences pro</a></li>
-                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#">Formation</a></li>
-                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#">Compétences</a></li>
+                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#projects">Projets</a></li>
+                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#formation">Formation</a></li>
+                        <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#skills">Compétences</a></li>
                     </ul>
                     <span class="nav-toggler__text">Mon CV vous intéresse ?</span>
                     <a class="contact__button" data-action="trailer" data-magnetic="true" href="#">
