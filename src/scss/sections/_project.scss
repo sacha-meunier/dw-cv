@@ -3,6 +3,7 @@
 
 .projects {
   @include margin-sides;
+  scroll-margin-top: 5rem;
 }
 
 .projects-wrapper {
@@ -219,6 +220,7 @@
   .projects {
     display: flex;
     justify-content: center;
+    scroll-margin-top: -5rem;
   }
 
   .projects-wrapper {

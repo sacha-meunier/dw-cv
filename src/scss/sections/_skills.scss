@@ -4,6 +4,7 @@
 .skills {
   container-type: inline-size;
   container-name: skills;
+  scroll-margin-top: -5rem;
 
   @include separator($border-grey, 20px);
 
