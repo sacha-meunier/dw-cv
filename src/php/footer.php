@@ -2,7 +2,7 @@
     <div class="footer__wrapper">
         <aside class="footer__about" aria-labelledby="about-heading">
             <h2 id="about-heading" class="sro">À propos de moi</h2>
-            <a class="footer__logo" href="/" aria-label="Retour à l'accueil">
+            <a class="footer__logo" href="#" aria-label="Retour à l'accueil">
                 <img class="footer__logo-image" loading="lazy" src="/content/images/footer-logo.svg" alt="Logo Zekiah"
                      width="102" height="40">
             </a>
@@ -19,10 +19,11 @@
                 <h3 class="footer__nav-title">Navigation</h3>
                 <ul class="footer__nav-list">
                     <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Accueil</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Expérience</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Témoignages</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Formation</a></li>
-                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Compétences</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#projects">Projets</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#testimonials">Témoignages</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#formation">Formation</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#skills">Compétences</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#hobbys">Passions</a></li>
                 </ul>
             </div>
             <div class="footer__nav-content">
