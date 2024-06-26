@@ -1,4 +1,4 @@
-<section class="skills" aria-labelledby="skills-heading">
+<section id="skills" class="skills" aria-labelledby="skills-heading">
     <div class="skills__wrapper">
 
         <div class="skills__heading">
