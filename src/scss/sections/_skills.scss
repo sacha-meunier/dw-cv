@@ -14,7 +14,7 @@
   }
 
   &__title {
-    font-family: $ff-sb;
+    font-weight: $ff-sb;
     font-size: $fs-36;
 
     &--primary {
@@ -134,13 +134,13 @@
     }
 
     &-title {
-      font-family: $ff-sb;
+      font-weight: $ff-sb;
       font-size: $fs-20;
     }
 
     &-copy {
       margin-top: 15px;
-      font-family: $ff-l;
+      font-weight: $ff-l;
       font-size: $fs-16;
       line-height: 22px;
       color: rgba(255, 255, 255, .8);
@@ -170,7 +170,7 @@
 
     &-item {
       flex: none;
-      font-family: $ff-sb;
+      font-weight: $ff-sb;
       font-size: $fs-14;
       line-height: 16px;
       color: #665f82;
@@ -220,7 +220,7 @@
     @include hover-animation($clr-blue-hover, all .2s ease, 100%);
 
     &-link {
-      font-family: $ff-sb;
+      font-weight: $ff-sb;
       font-size: $fs-13;
       line-height: 15px;
       letter-spacing: 2px;
@@ -259,7 +259,7 @@
     }
 
     &__title {
-      font-family: $ff-b;
+      font-weight: $ff-b;
       font-size: $fs-68;
     }
 

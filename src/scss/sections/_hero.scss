@@ -18,7 +18,7 @@
     order: 2;
     margin-bottom: 58px;
 
-    font-family: $ff-b;
+    font-weight: $ff-sb;
     font-size: $fs-38;
     line-height: 48px;
     color: $blue;
@@ -40,7 +40,7 @@
   .rotating-txt {
     position: relative;
     font-size: $fs-12;
-    font-family: $ff-black;
+    font-weight: $ff-black;
     letter-spacing: 2px;
     line-height: 15px;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
     max-width: 148px;
     min-height: 48px;
 
-    font-family: $ff-b;
+    font-weight: $ff-b;
     font-size: $fs-13;
     line-height: 15px;
     letter-spacing: 1.17px;
@@ -103,7 +103,7 @@
     max-width: 640px;
     padding-left: 20px;
     order: 4;
-    font-family: $ff-r;
+    font-weight: $ff-r;
     font-size: $fs-18;
     line-height: 32px;
     border-left: 2px solid $blue;
@@ -159,7 +159,7 @@
     &__copy {
       max-width: 640px;
       font-size: $fs-26;
-      font-family: $ff-l;
+      font-weight: $ff-l;
       line-height: 42px;
     }
   }

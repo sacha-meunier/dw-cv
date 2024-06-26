@@ -13,7 +13,7 @@
   }
 
   &__title {
-    font-family: $ff-b;
+    font-weight: $ff-b;
     font-size: $fs-34;
     line-height: 44px;
     color: $black;
@@ -26,7 +26,7 @@
 
   &__description {
     margin-top: 40px;
-    font-family: $ff-l;
+    font-weight: $ff-l;
     font-size: $fs-17;
     line-height: 1.6;
   }

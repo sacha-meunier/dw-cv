@@ -16,7 +16,7 @@
   @include hover-animation($clr-white-10-hover, all .2s ease, 100%);
 
   &-text {
-    font-family: $ff-b;
+    font-weight: $ff-sb;
     font-size: $fs-13;
     letter-spacing: 2px;
     text-transform: uppercase;

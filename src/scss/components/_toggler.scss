@@ -37,7 +37,6 @@
 
     transform: translate3d(2px, 0px, 0px) rotateZ(0deg);
     transform-style: preserve-3d;
-
   }
 
   &__line + &__line {
@@ -77,7 +76,7 @@
     text-decoration: none;
     color: $light-grey;
 
-    font-family: $ff-l;
+    font-weight: $ff-l;
     font-size: 32px;
     transition: all .2s ease-out;
     @include hover-animation($clr-white-50-hover, .2s ease, 70%);
@@ -90,7 +89,7 @@
   &__text {
     display: block;
     text-align: center;
-    font-family: $ff-r;
+    font-weight: $ff-r;
     font-size: $fs-17;
     line-height: 25px;
     color: $white;
@@ -143,7 +142,7 @@
 
     .footer__location-text {
       color: $light-grey;
-      font-family: $ff-r;
+      font-weight: $ff-r;
       font-size: $fs-12;
       line-height: 17px;
     }

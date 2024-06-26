@@ -19,7 +19,7 @@
 
 .heading-small {
   font-size: $fs-12;
-  font-family: $ff-sb;
+  font-weight: $ff-sb;
   letter-spacing: 2px;
   line-height: 15px;
   text-transform: uppercase;
@@ -68,7 +68,7 @@
 
 .projects-card-title {
   max-width: 75%;
-  font-family: $ff-b;
+  font-weight: $ff-b;
   font-size: $fs-22;
   color: $white;
   margin-bottom: 20px;
@@ -83,7 +83,7 @@
 
 .projects-card-p {
   font-size: $fs-16;
-  font-family: $ff-l;
+  font-weight: $ff-l;
   font-weight: 300;
   line-height: 24px;
   color: $white;
@@ -122,7 +122,7 @@
   margin-right: 12px;
   background-color: rgba(255, 255, 255, 0.14);
   font-size: $fs-13;
-  font-family: $ff-b;
+  font-weight: $ff-b;
   color: $white;
 }
 

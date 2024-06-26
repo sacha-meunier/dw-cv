@@ -2,7 +2,6 @@
 @import "../helpers/helpers";
 
 .formation-wrapper {
-  //@include margin-sides;
   scroll-margin-top: 2rem;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .heading-middle {
-  font-family: $ff-sb;
+  font-weight: $ff-sb;
   font-size: $fs-15;
   line-height: 20px;
   text-transform: uppercase;
@@ -47,7 +46,7 @@
 
 .formation-heading {
   max-width: 419px;
-  font-family: $ff-sb;
+  font-weight: $ff-sb;
   font-size: $fs-34;
   line-height: 44px;
   color: $white;
@@ -77,7 +76,7 @@
 
 .formation-small-title {
   margin-top: 84px;
-  font-family: $ff-sb;
+  font-weight: $ff-sb;
   font-size: $fs-26;
   line-height: 36.4px;
   color: $white;
@@ -91,7 +90,7 @@
 .formation-p-2,
 .formation-p-3, {
   margin-top: 24px;
-  font-family: $ff-r;
+  font-weight: $ff-r;
   font-size: $fs-17;
   line-height: 23.8px;
   color: $light-grey;
@@ -128,14 +127,14 @@
 }
 
 .formation-num {
-  font-family: $ff-sb;
+  font-weight: $ff-sb;
   font-size: $fs-20;
   line-height: 28px;
   color: $white;
 }
 
 .formation-num-txt {
-  font-family: $ff-r;
+  font-weight: $ff-r;
   font-size: $fs-17;
   line-height: 30px;
   color: $light-grey;
@@ -174,7 +173,7 @@
 
   .formation-wrapper + .formation-wrapper {
     .formation-num {
-      font-family: $ff-r;
+      font-weight: $ff-r;
       font-size: $fs-22;
     }
 
@@ -212,7 +211,7 @@
     margin-top: 25px;
   }
   .formation-num {
-    font-family: $ff-b;
+    font-weight: $ff-b;
     font-size: $fs-16;
   }
   .formation-num-txt {
