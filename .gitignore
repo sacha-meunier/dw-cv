@@ -5,3 +5,5 @@
 !webpack.mix.js
 !index.php
 !src
+src/.DS_Store
+src/scss/.DS_Store
