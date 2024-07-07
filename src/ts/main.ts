@@ -10,7 +10,7 @@ import {TiltEffect} from "./controllers/TiltEffect";
 import {Trailer} from "./controllers/Trailer";
 
 document.addEventListener("DOMContentLoaded", () => {
-    new NavColorChanger(".header__logo", ".nav-toggler__label", ".nav-toggler__line");
+    new NavColorChanger(".header__logo", ".nav-toggler__label", ".nav-toggler__line", ".nav-toggler__input");
 
     ScrollAnimator.init();
 
