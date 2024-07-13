@@ -52,12 +52,22 @@
     top: 0;
     right: 0;
 
-    background-color: $bg-black;
+    background-color: $bg-blue-nav;
     transition: transform 500ms ease;
     transform: translateX(100%);
   }
 
+  &__img {
+    will-change: transform;
+    z-index: -1;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    opacity: .5;
+  }
+
   &__list {
+    position: relative;
     min-height: 200px;
     margin-bottom: 10vh;
     display: flex;
@@ -79,12 +89,15 @@
     font-weight: $ff-l;
     font-size: 32px;
     transition: all .2s ease-out;
-    @include hover-animation($clr-white-50-hover, .2s ease, 70%);
+    @include hover-animation($clr-white-50-hover, .2s ease, 50%);
   }
 
   &__link--active {
+    position: relative;
     color: $white;
+    border-bottom: 2px solid;
   }
+
 
   &__text {
     display: block;
