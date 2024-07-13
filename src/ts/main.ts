@@ -8,6 +8,7 @@ import {HorizontalScrollController} from "./controllers/HorizontalScrollControll
 import {MagneticButton} from "./controllers/MagneticButton";
 import {TiltEffect} from "./controllers/TiltEffect";
 import {Trailer} from "./controllers/Trailer";
+import {Parallax} from "./controllers/Parallax";
 
 document.addEventListener("DOMContentLoaded", () => {
     new NavColorChanger(".header__logo", ".nav-toggler__label", ".nav-toggler__line", ".nav-toggler__input");
@@ -33,4 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
             settings.rotatingText.distance
         );
     }
+
+    new Parallax('[data-parallax]');
 });

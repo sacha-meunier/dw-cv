@@ -22,6 +22,7 @@
 
                 <nav class="nav-toggler__nav" id="primary-nav" role="navigation" aria-label="Navigation mobile">
                     <h2 class="sro">Navigation</h2>
+                    <img class="nav-toggler__img" data-parallax data-parallax-amount="70" data-parallax-parent=".nav-toggler__nav" src="../../content/images/zekiah-nav-bg-logo.svg" alt="">
                     <ul class="nav-toggler__list">
                         <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link nav-toggler__link--active" href="#">Accueil</a></li>
                         <li class="nav-toggler__item" data-action="trailer" data-type="white"><a class="nav-toggler__link" href="#projects">Projets</a></li>
