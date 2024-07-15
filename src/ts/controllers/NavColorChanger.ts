@@ -44,6 +44,10 @@ export class NavColorChanger {
 
         let entry = entries[0];
 
+        if (!entry) {
+            return; // If no entry is available, exit the function
+        }
+
         if (entry.isIntersecting) {
             this.setDefaultColors();
         } else {
