@@ -45,7 +45,8 @@
 
   &__nav {
     z-index: 6000;
-    padding-top: 10vh;
+    padding-top: 104px;
+    //padding-top: 10vh;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -74,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
 
   &__item {
@@ -115,6 +116,7 @@
     color: $black;
     text-align: center;
     @include hover-animation($clr-blue-hover, all .2s ease, 100%);
+
     &-icon-wrapper {
       border-left: 1px solid $black;
     }
@@ -176,8 +178,18 @@
 }
 
 @media (min-width: 480px) {
-  .nav-toggler__label {
-    right: $padding-sides-medium;
+  .nav-toggler {
+
+    .nav-toggler__label {
+      right: $padding-sides-medium;
+    }
+
+    .header__social-list {
+      width: 100%;
+      max-width: unset;
+      justify-content: center;
+      gap: 32px;
+    }
   }
 }
 
