@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
             settings.rotatingText.wordsSelector,
             settings.rotatingText.delay,
             settings.rotatingText.animationDuration,
-            settings.rotatingText.distance
+            settings.rotatingText.distance,
+            0.1
         );
     }
 

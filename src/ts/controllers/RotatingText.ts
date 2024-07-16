@@ -1,23 +1,22 @@
-function assert(condition: boolean, message: string): asserts condition {
-    if (!condition) {
-        throw new Error(message);
-    }
-}
+import {assert} from "../helpers/assert";
 
 /**
  * This class animates a rotating text where one slides in and one slides out infinitely.
+ * When the container is hovered, the rotation stops.
+ * When the container is clicked, a rotation is triggered.
  */
 export class RotatingText {
-    private readonly container: HTMLDivElement;
+    private readonly container: HTMLElement;
     private readonly words: NodeListOf<HTMLElement>;
-    private delay: number;
-    private animationDuration: number;
-    private distance: number;
+    private readonly delay: number;
+    private readonly animationDuration: number;
+    private readonly distance: number;
+    private readonly threshold: number;
     private currentIndex: number;
     private intervalId: number | null;
     private observer: IntersectionObserver;
 
-    constructor(containerSelector: string, elementsSelector: string, delay: number, animationDuration: number, distance: number) {
+    constructor(containerSelector: string, elementsSelector: string, delay: number, animationDuration: number, distance: number, threshold: number) {
         this.container = document.querySelector(containerSelector);
         assert(this.container != null, `No container was found using that selector: ${containerSelector}`);
 
@@ -27,14 +26,26 @@ export class RotatingText {
         this.delay = delay;
         this.animationDuration = animationDuration;
         this.distance = distance;
+        this.threshold = threshold;
         this.currentIndex = 0;
         this.intervalId = null;
 
-        this.observer = new IntersectionObserver(this.handleVisibilityChange.bind(this), {
-            threshold: 0.1,
-        });
+        this.init();
+    }
 
+    private init(): void {
+        this.observer = new IntersectionObserver(this.handleVisibilityChange.bind(this), {
+            threshold: this.threshold,
+        });
         this.observer.observe(this.container);
+
+        this.addEventListeners();
+    }
+
+    private addEventListeners() {
+        this.container.addEventListener('mouseenter', this.stopRotation.bind(this));
+        this.container.addEventListener('mouseleave', this.startRotation.bind(this));
+        this.container.addEventListener('click', this.rotateWords.bind(this));
     }
 
     private handleVisibilityChange(entries: IntersectionObserverEntry[]) {
@@ -79,4 +90,5 @@ export class RotatingText {
             this.intervalId = null;
         }
     }
+
 }
