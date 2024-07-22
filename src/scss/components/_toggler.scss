@@ -180,7 +180,7 @@
 @media (min-width: 480px) {
   .nav-toggler {
 
-    .nav-toggler__label {
+    &__label {
       right: $padding-sides-medium;
     }
 
@@ -194,32 +194,42 @@
 }
 
 @media (min-width: 768px) {
-  .nav-toggler__label {
-    right: $padding-sides-large;
-    width: 52px;
-    height: 52px;
 
-    &__line {
-      width: 20px;
+  .nav-toggler {
+    &__label {
+      right: $padding-sides-large;
+      width: 52px;
+      height: 52px;
+
+      &__line {
+        width: 20px;
+      }
     }
-  }
 
-  .nav-toggler__nav {
-    max-width: 60%;
+    &__nav {
+      max-width: 60%;
+    }
   }
 }
 
 @media (min-width: 992px) {
-  .nav-toggler__label {
-    right: $padding-sides-xlarge;
-  }
-  .nav-toggler__nav {
-    max-width: 50%;
+  .nav-toggler {
+
+    &__label {
+      right: $padding-sides-xlarge;
+    }
+
+    &__nav {
+      max-width: 50%;
+    }
   }
 }
 
 @media (min-width: 1280px) {
-  .nav-toggler__label {
-    right: calc(50% - 580px);
+  .nav-toggler {
+
+    &__label {
+      right: calc(50% - 580px);
+    }
   }
 }
