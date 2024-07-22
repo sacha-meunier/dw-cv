@@ -1,7 +1,7 @@
 <header class="header" role="banner">
     <div class="header__wrapper">
         <h1 data-animate="slide-up">
-            <a class="header__logo" data-action="trailer" href="/" aria-label="CV - Sacha Meunier">
+            <a class="header__logo" href="/" aria-label="CV - Sacha Meunier">
                 <img class="header__logo-item" src="/content/images/header-logo.svg"
                      alt="Zekiah - retour à l'accueil"
                      itemprop="logo" width="112" height="40">
