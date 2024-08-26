@@ -120,6 +120,7 @@
 .formation-num-holder {
   white-space: nowrap;
   align-items: flex-end;
+  color: $white;
 }
 
 .formation-num-holder ~ .formation-num-holder {
@@ -130,7 +131,6 @@
   font-weight: $ff-sb;
   font-size: $fs-20;
   line-height: 28px;
-  color: $white;
 }
 
 .formation-num-txt {
