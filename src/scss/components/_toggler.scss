@@ -45,11 +45,14 @@
 
   &__nav {
     z-index: 6000;
-    padding-top: 104px;
-    //padding-top: 10vh;
-    width: 100vw;
-    height: 100vh;
+    padding-top: 10dvh;
+    width: 100dvw;
+    height: 100dvh;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     top: 0;
     right: 0;
 
@@ -64,23 +67,30 @@
     position: absolute;
     top: -20%;
     left: 20%;
+    width: 256px;
+    height: auto;
     opacity: .5;
   }
 
   &__list {
     position: relative;
+    width: 100%;
     min-height: 200px;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
   }
 
   &__item {
     position: relative;
     padding: 0 5px;
+    max-height: 32px;
+  }
+
+  &__item + &__item {
+    margin-top: 24px;
   }
 
   &__link {
@@ -89,6 +99,7 @@
 
     font-weight: $ff-l;
     font-size: 32px;
+    line-height: 40px;
     transition: all .2s ease-out;
     @include hover-animation($clr-white-50-hover, .2s ease, 50%);
   }
@@ -111,10 +122,12 @@
 
   .contact__button {
     margin-top: 32px;
-    margin-bottom: 7vh;
+    margin-bottom: 10vh;
     background-color: $white;
     color: $black;
     text-align: center;
+    width: inherit;
+    height: 56px;
     @include hover-animation($clr-blue-hover, all .2s ease, 100%);
 
     &-icon-wrapper {
@@ -123,7 +136,7 @@
   }
 
   .header__social {
-
+    height: 24px;
     &-list {
       margin: 0 auto;
       width: 90%;
@@ -180,6 +193,10 @@
 @media (min-width: 480px) {
   .nav-toggler {
 
+    &__item + &__item {
+      margin-top: 40px;
+    }
+
     &__label {
       right: $padding-sides-medium;
     }
@@ -208,6 +225,31 @@
 
     &__nav {
       max-width: 60%;
+      padding-top: 104px;
+      padding-bottom: 32px;
+    }
+
+    &__list {
+      margin-bottom: 96px;
+    }
+
+    &__item {
+      max-height: 42px;
+    }
+
+    .contact__button {
+      height: 64px;
+      margin-top: 32px;
+      margin-bottom: 96px;
+    }
+
+    .header__social {
+      height: 32px;
+    }
+
+    &__img {
+      width: initial;
+      height: initial;
     }
   }
 }
