@@ -24,98 +24,111 @@
             </div>
         </div>
 
-        <div class="skills__carousel" aria-labelledby="skills-carousel">
+        <div class="skills__carousel" aria-labelledby="skills-carousel" itemscope itemtype="https://schema.org/ItemList">
             <!-- Card 1 -->
-            <a class="skills__card skills__card--thin skills__card--a" data-action="trailer" href="#" aria-labelledby="skills-card-title-1">
+            <a class="skills__card skills__card--thin skills__card--a" data-action="trailer" href="#" aria-labelledby="skills-card-title-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le développement web">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-1" class="skills__card-title">Développement Web</p>
-                    <p class="skills__card-copy">Sites web axés sur l'expérience et l'accessibilité des utilisateurs.</p>
+                    <dl>
+                        <dt id="skills-card-title-1" class="skills__card-title" itemprop="name">Développement Web</dt>
+                        <dd class="skills__card-copy">Sites web axés sur l'expérience et l'accessibilité des utilisateurs.</dd>
+                    </dl>
                 </div>
             </a>
             <!-- Card 2 -->
-            <a class="skills__card skills__card--large skills__card--b" data-action="trailer" href="#" aria-labelledby="skills-card-title-2">
+            <a class="skills__card skills__card--large skills__card--b" data-action="trailer" href="#" aria-labelledby="skills-card-title-2" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la création d'applications">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-2" class="skills__card-title">Créations d'applications</p>
-                    <p class="skills__card-copy">Je rends accessible vos services sous forme d'une application pour tous les appareils.</p>
+                    <dl>
+                        <dt id="skills-card-title-2" class="skills__card-title" itemprop="name">Créations d'applications</dt>
+                        <dd class="skills__card-copy">Je rends accessible vos services sous forme d'une application pour tous les appareils.</dd>
+                    </dl>
                 </div>
             </a>
             <!-- Card 3 -->
-            <a class="skills__card skills__card--large skills__card--c" data-action="trailer" href="#" aria-labelledby="skills-card-title-3">
+            <a class="skills__card skills__card--large skills__card--c" data-action="trailer" href="#" aria-labelledby="skills-card-title-3" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le rebranding">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-3" class="skills__card-title">Rebranding</p>
-                    <p class="skills__card-copy">J'améliore votre image de marque actuelle pour favoriser votre expansion.</p>
+                    <dl>
+                        <dt id="skills-card-title-3" class="skills__card-title" itemprop="name">Rebranding</dt>
+                        <dd class="skills__card-copy">J'améliore votre image de marque actuelle pour favoriser votre expansion.</dd>
+                    </dl>
                 </div>
             </a>
             <!-- Card 4 -->
-            <a class="skills__card skills__card--thin skills__card--d" data-action="trailer" href="#" aria-labelledby="skills-card-title-4">
+            <a class="skills__card skills__card--thin skills__card--d" data-action="trailer" href="#" aria-labelledby="skills-card-title-4" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la gestion de réseaux sociaux">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-4" class="skills__card-title">Gestion de réseaux sociaux</p>
-                    <p class="skills__card-copy">Je développe votre image grâce à l'utilisation des réseaux sociaux.</p>
+                    <dl>
+                        <dt id="skills-card-title-4" class="skills__card-title" itemprop="name">Gestion de réseaux sociaux</dt>
+                        <dd class="skills__card-copy">Je développe votre image grâce à l'utilisation des réseaux sociaux.</dd>
+                    </dl>
                 </div>
             </a>
             <!-- Card 5 -->
-            <a class="skills__card skills__card--large skills__card--e" data-action="trailer" href="#" aria-labelledby="skills-card-title-5">
+            <a class="skills__card skills__card--large skills__card--e" data-action="trailer" href="#" aria-labelledby="skills-card-title-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le montage vidéo">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-5" class="skills__card-title">Montage vidéo</p>
-                    <p class="skills__card-copy">Je rends vos contenus vidéo exceptionnels grâce à des montages vivant et dynamique.</p>
+                    <dl>
+                        <dt id="skills-card-title-5" class="skills__card-title" itemprop="name">Montage vidéo</dt>
+                        <dd class="skills__card-copy">Je rends vos contenus vidéo exceptionnels grâce à des montages vivant et dynamique.</dd>
+                    </dl>
                 </div>
             </a>
             <!-- Card 6 -->
-            <a class="skills__card skills__card--large skills__card--f" data-action="trailer" href="#" aria-labelledby="skills-card-title-6">
+            <a class="skills__card skills__card--large skills__card--f" data-action="trailer" href="#" aria-labelledby="skills-card-title-6" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la photographie">
                 </div>
                 <div class="skills__card-content">
-                    <p id="skills-card-title-6" class="skills__card-title">Photographie</p>
-                    <p class="skills__card-copy">Je prends de magnifiques photos et les retouches pour un résultat hors du commun.</p>
+                    <dl>
+                        <dt id="skills-card-title-6" class="skills__card-title" itemprop="name">Photographie</dt>
+                        <dd class="skills__card-copy">Je prends de magnifiques photos et les retouches pour un résultat hors du commun.</dd>
+                    </dl>
                 </div>
             </a>
         </div>
 
-        <div class="skills__slider" data-animate="fade-in" aria-labelledby="skills-slider">
+        <div class="skills__slider" data-animate="fade-in" aria-labelledby="skills-slider" itemscope itemtype="https://schema.org/ItemList">
             <div class="skills__slider-column">
-                <div class="skills__slider-row">
-                    <span class="skills__slider-item">HTML</span>
-                    <span class="skills__slider-item">CSS & SCSS</span>
-                    <span class="skills__slider-item">JavaScript & TypeScript</span>
-                    <span class="skills__slider-item">PHP</span>
-                    <span class="skills__slider-item">MySQL</span>
-                    <span class="skills__slider-item">Python</span>
-                </div>
-                <div class="skills__slider-row">
-                    <span class="skills__slider-item">Figma</span>
-                    <span class="skills__slider-item">Adobe XD</span>
-                    <span class="skills__slider-item">InDesign</span>
-                    <span class="skills__slider-item">Photoshop</span>
-                    <span class="skills__slider-item">Illustrator</span>
-                    <span class="skills__slider-item">After Effects</span>
-                    <span class="skills__slider-item">Première Pro</span>
-                </div>
-                <div class="skills__slider-row">
-                    <span class="skills__slider-item">HTML & CSS</span>
-                    <span class="skills__slider-item">Javascript & Typescript</span>
-                    <span class="skills__slider-item">WordPress</span>
-                    <span class="skills__slider-item">React</span>
-                    <span class="skills__slider-item">Laravel</span>
-                    <span class="skills__slider-item">NodeJS</span>
-                    <span class="skills__slider-item">GitHub</span>
-                    <span class="skills__slider-item">Flutter</span>
-                </div>
+                <dl class="skills__slider-row">
+                    <dt class="skills__slider-item" itemprop="itemListElement" title="Hypertext Markup Language">HTML</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement" title="Cascading Style Sheets & Syntactically Awesome Style Sheets">CSS & SCSS</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">JavaScript & TypeScript</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement" title="Hypertext Preprocessor">PHP</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement" title="Structured Query Language">MySQL</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Python</dt>
+                </dl>
+
+                <dl class="skills__slider-row">
+                    <dt class="skills__slider-item" itemprop="itemListElement">Figma</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Adobe XD</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">InDesign</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Photoshop</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Illustrator</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">After Effects</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Première Pro</dt>
+                </dl>
+                <dl class="skills__slider-row">
+                    <dt class="skills__slider-item" itemprop="itemListElement">HTML & CSS</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Javascript & Typescript</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">WordPress</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">React</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Laravel</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">NodeJS</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">GitHub</dt>
+                    <dt class="skills__slider-item" itemprop="itemListElement">Flutter</dt>
+                </dl>
             </div>
 
             <div class="skills__control">

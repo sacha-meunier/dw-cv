@@ -1,12 +1,23 @@
 <section id="testimonials" class="testimonials-wrapper" aria-labelledby="testimonials-heading">
-    <h2 id="testimonials-heading" class="heading testimonials-heading" data-animate="slide-up-fade" role="heading" aria-level="2">
+    <h2 id="testimonials-heading" class="heading testimonials-heading" data-animate="slide-up-fade" role="heading"
+        aria-level="2">
         <span class="testimonials-heading--blue">Avis</span><br>
         de mes clients
     </h2>
     <div class="testimonials-articles-wrapper">
         <!-- Testimonial 1 -->
-        <article class="testimonials-article" aria-labelledby="testimonial-1-title" aria-describedby="testimonial-1-desc">
-            <h3 id="testimonial-1-title" class="sro" role="heading" aria-level="3">Client 1</h3>
+        <article class="testimonials-article" aria-labelledby="testimonial-1-title"
+                 aria-describedby="testimonial-1-desc" itemscope itemtype="https://schema.org/Review">
+            <h3 id="testimonial-1-title" class="sro" role="heading" aria-level="3">
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Brice Maron</span>
+            <span itemprop="jobTitle">Directeur</span>
+            <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                <meta itemprop="name" content="La Taverne Waremme">
+            </span>
+            <meta itemprop="image" content="/content/images/testimonials/david-360.jpg">
+        </span>
+            </h3>
             <div class="testimonials-img-holder-desktop" data-animate="slide-up-fade">
                 <img
                         loading="lazy"
@@ -45,16 +56,27 @@
                             alt="Icône de citation"
                             width="180"
                             height="180">
-                    <p id="testimonial-1-desc" class="testimonials-p">
-                        Toujours à l'heure et excellent en collaboration. Sa fiabilité est incontestable et il livre systématiquement des résultats de grande qualité.
+                    <p id="testimonial-1-desc" class="testimonials-p" itemprop="reviewBody">
+                        Toujours à l'heure et excellent en collaboration. Sa fiabilité est incontestable et il livre
+                        systématiquement des résultats de grande qualité.
                     </p>
                 </div>
             </div>
         </article>
 
         <!-- Testimonial 2 -->
-        <article class="testimonials-article" aria-labelledby="testimonial-2-title" aria-describedby="testimonial-2-desc">
-            <h3 id="testimonial-2-title" class="sro" role="heading" aria-level="3">Client 2</h3>
+        <article class="testimonials-article" aria-labelledby="testimonial-2-title"
+                 aria-describedby="testimonial-2-desc" itemscope itemtype="https://schema.org/Review">
+            <h3 id="testimonial-2-title" class="sro" role="heading" aria-level="3">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Pierre Kabwe</span>
+                    <span itemprop="jobTitle">Directeur</span>
+                    <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                        <meta itemprop="name" content="Elle Sort">
+                    </span>
+                    <meta itemprop="image" content="/content/images/testimonials/pierre-360.jpg">
+                </span>
+            </h3>
             <div class="testimonials-img-holder-desktop" data-animate="slide-up-fade">
                 <img
                         loading="lazy"
@@ -93,16 +115,29 @@
                             alt="Icône de citation"
                             width="180"
                             height="180">
-                    <p id="testimonial-2-desc" class="testimonials-p testimonials-p-26">
-                        Sacha a démontré une fiabilité et une rapidité remarquables. Nous avons travaillé pendant plus d'un an avec lui et il a toujours répondu à nos attentes. Il a su se démarquer de nos précédents graphistes et a toujours compris ce que nous recherchions. Il cherche toujours à offrir un résultat des plus parfaits.
+                    <p id="testimonial-2-desc" class="testimonials-p testimonials-p-26" itemprop="reviewBody">
+                        Sacha a démontré une fiabilité et une rapidité remarquables. Nous avons travaillé pendant plus
+                        d'un an avec lui et il a toujours répondu à nos attentes. Il a su se démarquer de nos précédents
+                        graphistes et a toujours compris ce que nous recherchions. Il cherche toujours à offrir un
+                        résultat des plus parfaits.
                     </p>
                 </div>
             </div>
         </article>
 
         <!-- Testimonial 3 -->
-        <article class="testimonials-article" aria-labelledby="testimonial-3-title" aria-describedby="testimonial-3-desc">
-            <h3 id="testimonial-3-title" class="sro" role="heading" aria-level="3">Client 3</h3>
+        <article class="testimonials-article" aria-labelledby="testimonial-3-title"
+                 aria-describedby="testimonial-3-desc" itemscope itemtype="https://schema.org/Review">
+            <h3 id="testimonial-3-title" class="sro" role="heading" aria-level="3">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Lucien Lelièvre</span>
+                    <span itemprop="jobTitle">Directeur</span>
+                    <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                        <meta itemprop="name" content="Koenigsegg">
+                    </span>
+                    <meta itemprop="image" content="/content/images/testimonials/harvey-360.jpg">
+                </span>
+            </h3>
             <div class="testimonials-img-holder-desktop" data-animate="slide-up-fade">
                 <img
                         loading="lazy"
@@ -141,8 +176,11 @@
                             alt="Icône de citation"
                             width="180"
                             height="180">
-                    <p id="testimonial-3-desc" class="testimonials-p testimonials-p-22">
-                        Sacha est un développeur web exceptionnel. Il est très perfectionniste et fait toujours de son mieux pour fournir un travail de qualité. De plus, il est très rapide et peut terminer un projet en un temps records. Il prend également le temps de bien comprendre les besoins de ses clients. Je vous recommande de travailler avec lui pour vos projets web.
+                    <p id="testimonial-3-desc" class="testimonials-p testimonials-p-22" itemprop="reviewBody">
+                        Sacha est un développeur web exceptionnel. Il est très perfectionniste et fait toujours de son
+                        mieux pour fournir un travail de qualité. De plus, il est très rapide et peut terminer un projet
+                        en un temps records. Il prend également le temps de bien comprendre les besoins de ses clients.
+                        Je vous recommande de travailler avec lui pour vos projets web.
                     </p>
                 </div>
             </div>

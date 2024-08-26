@@ -1,15 +1,13 @@
-<footer class="footer" id="footer" role="contentinfo">
+<footer class="footer" id="footer" role="contentinfo" itemscope itemtype="https://schema.org/Person">
     <div class="footer__wrapper">
         <aside class="footer__about" aria-labelledby="about-heading">
             <h2 id="about-heading" class="sro">À propos de moi</h2>
-            <a class="footer__logo" href="#" aria-label="Retour à l'accueil">
+            <a class="footer__logo" href="/" aria-label="Retour à l'accueil" itemprop="url">
                 <img class="footer__logo-image" loading="lazy" src="/content/images/footer-logo.svg" alt="Logo Zekiah"
                      width="102" height="40">
             </a>
-            <p class="footer__description">Je crée des sites web au goût du jour, qui fonctionnent sur tous les
-                appareils,
-                pour tous les
-                utilisateurs et qui offrent une expérience satisfaisante.</p>
+            <p class="footer__description" itemprop="description">Je crée des sites web au goût du jour, qui fonctionnent sur tous les
+                appareils, pour tous les utilisateurs et qui offrent une expérience satisfaisante.</p>
             <a class="footer__button" data-magnetic="true" data-action="trailer" href="#"><span>Discutons</span></a>
         </aside>
 
@@ -58,22 +56,22 @@
         <section class="footer__social" aria-labelledby="social-media-heading">
             <h2 id="social-media-heading" class="sro">Mes réseaux sociaux</h2>
             <ul class="footer__social-list">
-                <li><a class="footer__social-logo-link" data-action="trailer" href="https://dribbble.com/Zekiahs"><img class="footer__social-logo-item" loading="lazy"
-                                                                                                                       src="../../content/images/icon-dribble.svg"
-                                                                                                                       alt="Icône de Dribbble" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" data-action="trailer" href="https://twitter.com/ZekiahVFX"><img class="footer__social-logo-item" loading="lazy"
-                                                                                                                        src="../../content/images/icon-twitter.svg"
-                                                                                                                        alt="Icône de Twitter" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.instagram.com/zekiahrr"><img class="footer__social-logo-item" loading="lazy"
-                                                                                                                             src="../../content/images/icon-instagram.svg"
-                                                                                                                             alt="Icône de Instagram" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.youtube.com/@Zekiah"><img class="footer__social-logo-item" loading="lazy"
-                                                                                                                          src="../../content/images/icon-youtube.svg"
-                                                                                                                          alt="Icône de Youtube" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" data-action="trailer" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-linkedin.svg"
-                                                                                            alt="Icône de Linkedin" width="24" height="24"></a></li>
-                <li><a class="footer__social-logo-link" data-action="trailer" href="#"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-tiktok.svg"
-                                                                                            alt="Icône de Tiktok" width="24" height="24"></a>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://dribbble.com/Zekiahs" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy"
+                                                                                                                                         src="../../content/images/icon-dribble.svg"
+                                                                                                                                         alt="Icône de Dribbble" width="24" height="24"></a></li>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://twitter.com/ZekiahVFX" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy"
+                                                                                                                                          src="../../content/images/icon-twitter.svg"
+                                                                                                                                          alt="Icône de Twitter" width="24" height="24"></a></li>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.instagram.com/zekiahrr" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy"
+                                                                                                                                               src="../../content/images/icon-instagram.svg"
+                                                                                                                                               alt="Icône de Instagram" width="24" height="24"></a></li>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="https://www.youtube.com/@Zekiah" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy"
+                                                                                                                                            src="../../content/images/icon-youtube.svg"
+                                                                                                                                            alt="Icône de Youtube" width="24" height="24"></a></li>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="#" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-linkedin.svg"
+                                                                                                              alt="Icône de Linkedin" width="24" height="24"></a></li>
+                <li><a class="footer__social-logo-link" data-action="trailer" href="#" itemprop="sameAs"><img class="footer__social-logo-item" loading="lazy" src="../../content/images/icon-tiktok.svg"
+                                                                                                              alt="Icône de Tiktok" width="24" height="24"></a>
                 </li>
             </ul>
         </section>
@@ -81,12 +79,14 @@
         <section class="footer__legal" aria-labelledby="legal-notice-heading">
             <h2 id="legal-notice-heading" class="sro">Mentions légales</h2>
             <div class="footer__legal-content">
-                <div class="footer__location">
+                <div class="footer__location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                     <img class="footer__location-icon" loading="lazy" src="../../content/images/icon-location.svg"
                          alt="Icône de localisation" width="18" height="18">
-                    <p class="footer__location-text">Faimes, Belgique</p>
+                    <p class="footer__location-text">
+                        <span itemprop="addressLocality">Faimes</span>, <span itemprop="addressCountry">Belgique</span>
+                    </p>
                 </div>
-                <p class="footer__copyright">© 2024 Zekiah. Tous droits réservés.</p>
+                <p class="footer__copyright">© 2024 <span itemprop="name">Zekiah</span>. Tous droits réservés.</p>
             </div>
         </section>
     </div>
