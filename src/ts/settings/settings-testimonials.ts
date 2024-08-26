@@ -7,7 +7,7 @@ export const settingsTestimonials = {
         arrowRight: '.arrow-2',
     },
     animation: {
-        duration: 500,
+        duration: 250,
         fill: 'forwards' as FillMode,
     },
     animationStates: {

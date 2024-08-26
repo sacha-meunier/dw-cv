@@ -1,4 +1,4 @@
-import { settingsTestimonials } from "../settings/settings-testimonials";
+import {settingsTestimonials} from "../settings/settings-testimonials";
 
 interface Selectors {
     fadeElements: string;
@@ -23,7 +23,7 @@ cards.forEach((card, index) => {
 
 function animate(elements: NodeListOf<Element>, animationState: Keyframe[], stagger: number = 0): Promise<Awaited<Animation>[]> {
     const animations = Array.from(elements).map((el, i) => {
-        const config = { ...settingsTestimonials.animation, delay: i * stagger };
+        const config = {...settingsTestimonials.animation, delay: i * stagger};
         return (el as HTMLElement).animate(animationState, config).finished;
     });
     return Promise.all(animations);

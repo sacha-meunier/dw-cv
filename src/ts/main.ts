@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     ScrollAnimator.init();
 
-    new HorizontalScrollController(".skills__carousel", ".skills__button--arrow-left", ".skills__button--arrow-right", 500, 600);
-    new HorizontalScrollController(".skills__slider-column", ".skills__control-arrow:first-child", ".skills__control-arrow:last-child", 500, 600);
+    new HorizontalScrollController(".skills__carousel", ".skills__button--arrow-left", ".skills__button--arrow-right", 250, 600);
+    new HorizontalScrollController(".skills__slider-column", ".skills__control-arrow:first-child", ".skills__control-arrow:last-child", 250, 600);
 
     new MagneticButton(`[data-magnetic="true"]`);
 
