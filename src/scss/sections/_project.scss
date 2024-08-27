@@ -26,6 +26,10 @@
 }
 
 .tilt {
+  text-decoration: none;
+}
+
+.tilt-wrapper {
   position: relative;
   margin-top: 72px;
   margin-left: auto;
@@ -33,12 +37,12 @@
   background-color: transparent;
   transition: all 0.35s ease;
 
-  + .tilt {
+  + .tilt-wrapper {
     margin-top: 34px;
   }
 }
 
-.tilt:hover .card-shadow {
+.tilt-wrapper:hover .card-shadow {
   opacity: 1;
 }
 
@@ -83,24 +87,93 @@
 
 .projects-card-p {
   font-size: $fs-16;
-  font-weight: $ff-l;
   font-weight: 300;
   line-height: 24px;
   color: $white;
 }
 
 .projects-card-img-wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  margin-top: 40px;
   width: 100%;
-  aspect-ratio: 1/1;
+  //aspect-ratio: 1/1;
 
-  img {
-    width: 100%;
+}
+
+.p1 {
+  margin-top: 100px;
+  height: 167px;
+
+  :first-child {
+    position: absolute;
+    max-width: 125%;
     height: auto;
+    top: auto;
+    bottom: -7%;
+    left: -32%;
+    right: auto;
+  }
+
+  :last-child {
+    position: absolute;
+    top: auto;
+    bottom: -7%;
+    left: auto;
+    right: -20%;
+    max-width: 59%;
+    height: auto;
+  }
+}
+
+.p2 {
+  height: 167px;
+
+  :first-child {
+    position: absolute;
+    max-width: 125%;
+    height: auto;
+    top: auto;
+    bottom: 0%;
+    right: -40%;
+  }
+
+  :last-child {
+    position: absolute;
+    max-width: 25%;
+    height: auto;
+    top: 15%;
+    right: 50%;
+    bottom: auto;
+    left: auto;
+  }
+}
+
+.p3 {
+  padding-bottom: 80px;
+  height: 260px;
+
+  :first-child {
+    position: absolute;
+    max-width: 130%;
+    height: auto;
+    top: auto;
+    bottom: -36%;
+    right: -25%;
+  }
+}
+
+.p4 {
+  height: 200px;
+
+  :first-child {
+    position: absolute;
+    max-width: 128%;
+    height: auto;
+    top: auto;
+    bottom: -55%;
+    right: -10%;
   }
 }
 
@@ -137,6 +210,11 @@
   .contact__button {
     margin: 0;
     width: 100%;
+    order: 2;
+  }
+
+  .contact__button--white {
+    order: 1;
   }
 
   .contact__button-text {
@@ -156,6 +234,66 @@
     font-size: $fs-20;
     line-height: 34px;
   }
+
+  .p1 {
+    margin-top: 0;
+    height: 366px;
+
+    :first-child {
+      max-width: 112%;
+      left: -12%;
+    }
+
+    :last-child {
+      right: -24%;
+    }
+  }
+
+  .p2 {
+    height: 255px;
+
+    :first-child {
+      max-width: 110%;
+      top: 5%;
+      bottom: auto;
+      right: -20%;
+    }
+
+    :last-child {
+      right: auto;
+      top: 7%;
+      left: 26%;
+    }
+  }
+
+  .p3 {
+    height: 360px;
+
+    :first-child {
+      max-width: 110%;
+      bottom: -60%;
+      right: -15%;
+    }
+  }
+
+  .p4 {
+    height: 320px;
+
+    :first-child {
+      max-width: 110%;
+      bottom: -30%;
+    }
+  }
+
+  .projects-btn-wrapper {
+    .contact__button {
+      order: 1;
+    }
+
+    .contact__button--white {
+      order: 2;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -172,7 +310,7 @@
     font-size: $fs-17;
   }
 
-  .tilt + .tilt {
+  .tilt-wrapper + .tilt-wrapper {
     margin-top: 120px;
   }
 
@@ -207,6 +345,41 @@
     aspect-ratio: unset;
   }
 
+  .p1 {
+    :first-child {
+      max-width: 112%;
+      left: 5%;
+      bottom: 0;
+    }
+
+    :last-child {
+      max-width: 100%;
+      right: 0%;
+      left: 68%;
+      bottom: 0;
+    }
+  }
+
+  .p3 {
+    height: 300px;
+
+    :first-child {
+      max-width: 70%;
+      bottom: -133%;
+      right: -5%;
+    }
+  }
+
+  .p4 {
+
+    :first-child {
+      max-width: 120%;
+      bottom: -40%;
+      right: 5%;
+    }
+  }
+
+
   .projects-category {
     display: inline;
   }
@@ -234,31 +407,80 @@
     padding: 5px 20px 2px 0;
   }
 
-  .tilt,
+  .tilt-wrapper,
   .projects-card {
     width: 100%;
     height: 520px;
   }
 
-  .tilt + .tilt {
+  .tilt-wrapper + .tilt-wrapper {
     margin-top: 120px;
   }
+
   .projects-card-p {
     margin-bottom: 80px;
   }
+
   .projects-card-img-wrapper {
     position: absolute;
     width: 60%;
     top: 0;
     right: -5%;
     margin-top: 0;
+  }
 
-    img {
-      width: 80%;
+  .p1 {
+    :first-child {
+      bottom: 5%;
+      left: 0%;
+    }
+
+    :last-child {
+      bottom: 4%;
+      left: 65%;
     }
   }
+
+  .p2 {
+    :first-child {
+      top: 17%;
+      right: 7%;
+    }
+
+    :last-child {
+      top: 21%;
+      left: 6%;
+    }
+  }
+
+  .p3 {
+    height: 300px;
+
+    :first-child {
+      max-width: 90%;
+      right: 3%;
+      bottom: -150%;
+    }
+  }
+
+  .p4 {
+
+    :first-child {
+      bottom: -25%;
+      right: 15%;
+    }
+  }
+
   .projects-btn-wrapper {
     justify-content: center;
     gap: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .p1 {
+    :last-child {
+      left: 59%;
+    }
   }
 }
