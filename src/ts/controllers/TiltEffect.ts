@@ -13,7 +13,7 @@ export class TiltEffect {
         this.perspective = "perspective(1000px)";
         this.slowTransition = "all 0.5s ease";
         this.fastTransition = "all 0.1s ease";
-        this.amount = [10, 20, 50];
+        this.amount = [20, 50];
 
         this.tiltWrappers.forEach(tiltWrapper => {
             const tiltChild = tiltWrapper.children[0] as HTMLElement | null;
@@ -49,7 +49,7 @@ export class TiltEffect {
         if (highlight) {
             const xHighlightTilt = -(mx - cardHalfWidth) / 80;
             const yHighlightTilt = -(my - cardHalfHeight) / 80;
-            const highlightTransform = `translateX(${xHighlightTilt * this.amount[2]}px) translateY(${yHighlightTilt * this.amount[2]}px) rotateX(${xHighlightTilt}deg) rotateY(${yHighlightTilt}deg)`;
+            const highlightTransform = `translateX(${xHighlightTilt * this.amount[1]}px) translateY(${yHighlightTilt * this.amount[1]}px) rotateX(${xHighlightTilt}deg) rotateY(${yHighlightTilt}deg)`;
             this.applyTransform(highlight, this.fastTransition, highlightTransform, this.perspective);
         }
     }
