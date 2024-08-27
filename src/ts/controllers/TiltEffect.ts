@@ -17,15 +17,15 @@ export class TiltEffect {
 
         this.tiltWrappers.forEach(tiltWrapper => {
             const tiltChild = tiltWrapper.children[0] as HTMLElement | null;
-            const img = tiltWrapper.querySelector('img') as HTMLElement | null;
+            const imgs = tiltWrapper.querySelectorAll('img') as NodeListOf<HTMLElement>;
             const highlight = tiltWrapper.querySelector('.card-highlight') as HTMLElement | null;
 
-            tiltWrapper.addEventListener('mousemove', (e) => this.handleMouseMove(e, tiltWrapper, tiltChild, img, highlight));
-            tiltWrapper.addEventListener('mouseleave', () => this.handleMouseLeave(tiltChild, img, highlight));
+            tiltWrapper.addEventListener('mousemove', (e) => this.handleMouseMove(e, tiltWrapper, tiltChild, imgs, highlight));
+            tiltWrapper.addEventListener('mouseleave', () => this.handleMouseLeave(tiltChild, imgs, highlight));
         });
     }
 
-    private handleMouseMove(event: MouseEvent, tiltWrapper: HTMLElement, tiltChild: HTMLElement | null, img: HTMLElement | null, highlight: HTMLElement | null) {
+    private handleMouseMove(event: MouseEvent, tiltWrapper: HTMLElement, tiltChild: HTMLElement | null, imgs: NodeListOf<HTMLElement>, highlight: HTMLElement | null) {
         const parentPosition = tiltWrapper.getBoundingClientRect();
         const cardHalfWidth = parentPosition.width / 2;
         const cardHalfHeight = parentPosition.height / 2;
@@ -38,12 +38,13 @@ export class TiltEffect {
 
         this.applyTransform(tiltChild, this.fastTransition, cardTransform, this.perspective);
 
-        if (img) {
-            const xImgTilt = (mx - cardHalfWidth) * 0.001;
-            const yImgTilt = (my - cardHalfHeight) * 0.001;
+        imgs.forEach((img, index) => {
+            const parallaxFactor = 1 + index * 0.9;  // Adjust parallax effect for each image
+            const xImgTilt = (mx - cardHalfWidth) * 0.001 * parallaxFactor;
+            const yImgTilt = (my - cardHalfHeight) * 0.001 * parallaxFactor;
             const imgTransform = `translateX(${xImgTilt * this.amount[0]}px) translateY(${yImgTilt * this.amount[0]}px) rotateX(${xImgTilt}deg) rotateY(${yImgTilt}deg)`;
             this.applyTransform(img, this.fastTransition, imgTransform, this.perspective);
-        }
+        });
 
         if (highlight) {
             const xHighlightTilt = -(mx - cardHalfWidth) / 80;
@@ -53,10 +54,14 @@ export class TiltEffect {
         }
     }
 
-    private handleMouseLeave(tiltChild: HTMLElement | null, img: HTMLElement | null, highlight: HTMLElement | null) {
+    private handleMouseLeave(tiltChild: HTMLElement | null, imgs: NodeListOf<HTMLElement>, highlight: HTMLElement | null) {
         const defaultTransform = "translateX(0) translateY(0) rotateX(0) rotateY(0)";
         this.applyTransform(tiltChild, this.slowTransition, defaultTransform, this.perspective);
-        this.applyTransform(img, this.slowTransition, defaultTransform, this.perspective);
+
+        imgs.forEach(img => {
+            this.applyTransform(img, this.slowTransition, defaultTransform, this.perspective);
+        });
+
         this.applyTransform(highlight, this.slowTransition, defaultTransform, this.perspective);
     }
 
@@ -67,3 +72,4 @@ export class TiltEffect {
         }
     }
 }
+
