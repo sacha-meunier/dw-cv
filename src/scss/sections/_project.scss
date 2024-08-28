@@ -111,7 +111,7 @@
     max-width: 125%;
     height: auto;
     top: auto;
-    bottom: -7%;
+    bottom: -15%;
     left: -32%;
     right: auto;
   }
@@ -119,7 +119,7 @@
   :last-child {
     position: absolute;
     top: auto;
-    bottom: -7%;
+    bottom: -16%;
     left: auto;
     right: -20%;
     max-width: 59%;
@@ -187,6 +187,28 @@
   position: absolute;
   top: 5%;
   left: 20%;
+}
+
+.card-bg-1 {
+  z-index: -1;
+  position: absolute;
+  max-width: 200%;
+  height: auto;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+}
+
+.card-bg-2 {
+  z-index: -1;
+  position: absolute;
+  max-width: 165%;
+  height: auto;
+  top: auto;
+  bottom: -5%;
+  left: -16%;
+  right: auto;
 }
 
 .projects-category {
@@ -285,6 +307,10 @@
     }
   }
 
+  .card-bg-1 {
+    bottom: -3%;
+  }
+
   .projects-btn-wrapper {
     .contact__button {
       order: 1;
@@ -379,6 +405,14 @@
     }
   }
 
+  .card-bg-1 {
+    right: 13%;
+  }
+
+  .card-bg-2 {
+    bottom: -7%;
+    left: -22%;
+  }
 
   .projects-category {
     display: inline;
@@ -469,6 +503,22 @@
       bottom: -25%;
       right: 15%;
     }
+  }
+
+  .card-bg-1 {
+    z-index: -1;
+    position: absolute;
+    max-width: 200%;
+    height: auto;
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+  }
+
+  .card-bg-2 {
+    bottom: -21%;
+    left: -3%;
   }
 
   .projects-btn-wrapper {
