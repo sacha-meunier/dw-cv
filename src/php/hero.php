@@ -16,8 +16,8 @@
                 </div>
             </div>
             <div class="hero__button-wrapper" data-animate="slide-up" data-action="trailer">
-                <a class="hero__button" href="#">Discutons</a>
-                <a class="hero__button hero__button--white" data-magnetic="true" href="#"><span>Voir Portfolio</span></a>
+                <a class="hero__button" href="https://sacha-meunier.com/contact/">Discutons</a>
+                <a class="hero__button hero__button--white" data-magnetic="true" href="https://sacha-meunier.com"><span>Voir Portfolio</span></a>
             </div>
             <p class="hero__copy" data-animate="slide-up-fade">
                 <span itemprop="description">Je suis un développeur web basé en Belgique. Mon but est d'offrir la meilleure expérience possible pour tous les utilisateurs.</span>

@@ -1,15 +1,13 @@
 <header class="header" role="banner" itemscope itemtype="https://schema.org/Organization">
     <div class="header__wrapper">
-        <h1 data-animate="slide-up">
-            <a class="header__logo" href="/" aria-label="CV - Sacha Meunier" itemprop="url">
+            <a data-animate="slide-up" class="header__logo" href="/" aria-label="CV - Sacha Meunier" itemprop="url">
                 <img class="header__logo-item" src="/content/images/header-logo.svg"
                      alt="Zekiah - retour à l'accueil"
                      width="112" height="40">
             </a>
-        </h1>
 
         <div>
-            <a class="header__contact" data-type="white" data-action="trailer" data-magnetic="true" href="#">
+            <a class="header__contact" data-type="white" data-action="trailer" data-magnetic="true" href="https://sacha-meunier.com/contact">
                 <span class="header__contact-text">Discutons</span>
             </a>
 
@@ -30,7 +28,7 @@
                          alt="">
                     <ul class="nav-toggler__list">
                         <li class="nav-toggler__item" data-action="trailer" data-type="white">
-                            <a class="nav-toggler__link nav-toggler__link--active" href="#">Accueil</a>
+                            <a class="nav-toggler__link nav-toggler__link--active" href="/">Accueil</a>
                         </li>
                         <li class="nav-toggler__item" data-action="trailer" data-type="white">
                             <a class="nav-toggler__link" href="#projects">Projets</a>
@@ -43,7 +41,7 @@
                         </li>
                     </ul>
                     <span class="nav-toggler__text">Mon CV vous intéresse ?</span>
-                    <a class="contact__button" data-action="trailer" data-magnetic="true" href="#">
+                    <a class="contact__button" data-action="trailer" data-magnetic="true" href="https://sacha-meunier.com/contact">
                         <span class="contact__button-text">Discutons</span>
                         <div class="contact__button-icon-wrapper">
                             <img class="contact__button-icon" src="/content/images/arrow-right-black.svg" width="18"

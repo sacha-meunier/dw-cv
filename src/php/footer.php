@@ -8,7 +8,7 @@
             </a>
             <p class="footer__description" itemprop="description">Je crée des sites web au goût du jour, qui fonctionnent sur tous les
                 appareils, pour tous les utilisateurs et qui offrent une expérience satisfaisante.</p>
-            <a class="footer__button" data-magnetic="true" data-action="trailer" href="#"><span>Discutons</span></a>
+            <a class="footer__button" data-magnetic="true" data-action="trailer" href="https://sacha-meunier.com/contact"><span>Discutons</span></a>
         </aside>
 
         <nav class="footer__nav" aria-labelledby="footer-nav-heading">
@@ -16,7 +16,7 @@
             <div class="footer__nav-content">
                 <h3 class="footer__nav-title">Navigation</h3>
                 <ul class="footer__nav-list">
-                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#">Accueil</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="/">Accueil</a></li>
                     <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#projects">Projets</a></li>
                     <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#testimonials">Témoignages</a></li>
                     <li class="footer__nav-item"><a class="footer__nav-link" data-action="trailer" href="#formation">Formation</a></li>

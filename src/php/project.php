@@ -65,7 +65,7 @@
 
         <!-- Project 3 -->
         <article class="tilt-wrapper" data-action="trailer" data-tilt-reference aria-labelledby="project-3-title" aria-describedby="project-3-desc" itemscope itemtype="https://schema.org/CreativeWork">
-            <a class="tilt" href="#">
+            <a class="tilt" href="/">
                 <div data-tilt-element class="projects-card bg-orange">
                     <h3 id="project-3-title" class="projects-card-title" data-animate="slide-up-fade" role="heading"
                         aria-level="3" itemprop="headline">
@@ -117,13 +117,13 @@
         </article>
 
         <div class="projects-btn-wrapper" data-animate="slide-up-fade">
-            <a class="contact__button" data-magnetic="true" data-action="trailer" href="#">
+            <a class="contact__button" data-magnetic="true" data-action="trailer" href="https://sacha-meunier.com/contact/">
                 <span class="contact__button-text">Discutons</span>
                 <div class="contact__button-icon-wrapper"><img class="contact__button-icon"
                                                                src="/content/images/icon-mail.svg" width="18"
                                                                height="18" alt="Icône d'enveloppe représentant l'email"></div>
             </a>
-            <a class="contact__button contact__button--white" data-magnetic="true" data-action="trailer" href="#">
+            <a class="contact__button contact__button--white" data-magnetic="true" data-action="trailer" href="https://sacha-meunier.com/projects/">
                 <span class="contact__button-text">Plus de projets</span>
                 <div class="contact__button-icon-wrapper"><img class="contact__button-icon"
                                                                loading="lazy"
