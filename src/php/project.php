@@ -5,9 +5,9 @@
         </div>
 
         <!-- Project 1 -->
-        <article class="tilt-wrapper" data-action="trailer" aria-labelledby="project-1-title" aria-describedby="project-1-desc" itemscope itemtype="https://schema.org/CreativeWork">
+        <article class="tilt-wrapper" data-action="trailer" data-tilt-reference aria-labelledby="project-1-title" aria-describedby="project-1-desc" itemscope itemtype="https://schema.org/CreativeWork">
             <a class="tilt" href="https://sacha-meunier.com">
-                <div class="projects-card bg-cyan">
+                <div data-tilt-element class="projects-card bg-cyan">
                     <h3 id="project-1-title" class="projects-card-title" data-animate="slide-up-fade" role="heading"
                         aria-level="3" itemprop="headline">
                         Portfolio
@@ -17,25 +17,26 @@
                         Wordpress.
                     </p>
                     <div class="projects-card-img-wrapper p1" data-animate="slide-up-fade">
-                        <img src="../../content/images/projects/p1-desktop-portfolio.png" width="419" height="369"
+                        <img data-tilt-parallax data-tilt-amount="10" src="../../content/images/projects/p1-desktop-portfolio.png" width="419" height="369"
                              alt="Image du Portfolio en version desktop" itemprop="image">
-                        <img src="../../content/images/projects/p1-mobile-portfolio.png" width="169" height="282"
+                        <img data-tilt-parallax data-tilt-amount="20" src="../../content/images/projects/p1-mobile-portfolio.png" width="169" height="282"
                              alt="Image du Portfolio en version mobile" itemprop="image">
                     </div>
-                    <div class="card-highlight"></div>
+                    <div data-tilt-parallax data-tilt-amount="80" class="card-highlight"></div>
                     <div class="projects-category-wrapper">
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Web</span>
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Wordpress</span>
                     </div>
+                    <img class="card-bg-1" src="../../content/images/projects/p1-bg.svg" width="1038" height="527" alt="">
                 </div>
                 <div class="card-shadow"></div>
             </a>
         </article>
 
         <!-- Project 2 -->
-        <article class="tilt-wrapper" data-action="trailer" aria-labelledby="project-2-title" aria-describedby="project-2-desc" itemscope itemtype="https://schema.org/CreativeWork">
+        <article class="tilt-wrapper" data-action="trailer" data-tilt-reference aria-labelledby="project-2-title" aria-describedby="project-2-desc" itemscope itemtype="https://schema.org/CreativeWork">
             <a class="tilt" href="https://sef.sacha-meunier.com">
-                <div class="projects-card bg-d-purple">
+                <div data-tilt-element class="projects-card bg-d-purple">
                     <h3 id="project-2-title" class="projects-card-title" data-animate="slide-up-fade" role="heading"
                         aria-level="3" itemprop="headline">
                         Le Sef de Huy
@@ -45,26 +46,27 @@
                         pour qu'ils aident plus de monde.
                     </p>
                     <div class="projects-card-img-wrapper p2" data-animate="slide-up-fade">
-                        <img src="../../content/images/projects/p2-desktop-sef.png" width="620" height="381"
+                        <img data-tilt-parallax data-tilt-amount="10" src="../../content/images/projects/p2-desktop-sef.png" width="620" height="381"
                              alt="Image du projet SEF en version desktop" itemprop="image">
-                        <img src="../../content/images/projects/p2-mobile-sef.png" width="135" height="236"
+                        <img data-tilt-parallax data-tilt-amount="20" src="../../content/images/projects/p2-mobile-sef.png" width="135" height="236"
                              alt="Image du projet SEF en version mobile" itemprop="image">
                     </div>
-                    <div class="card-highlight"></div>
+                    <div data-tilt-parallax data-tilt-amount="80" class="card-highlight"></div>
                     <div class="projects-category-wrapper">
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Web</span>
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Rebranding</span>
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Wordpress</span>
                     </div>
+                    <img class="card-bg-2" data-animate="slide-up-fade" src="../../content/images/projects/p2-bg.png" width="2800" height="1200" alt="">
                 </div>
                 <div class="card-shadow"></div>
             </a>
         </article>
 
         <!-- Project 3 -->
-        <article class="tilt-wrapper" data-action="trailer" aria-labelledby="project-3-title" aria-describedby="project-3-desc" itemscope itemtype="https://schema.org/CreativeWork">
+        <article class="tilt-wrapper" data-action="trailer" data-tilt-reference aria-labelledby="project-3-title" aria-describedby="project-3-desc" itemscope itemtype="https://schema.org/CreativeWork">
             <a class="tilt" href="#">
-                <div class="projects-card bg-orange">
+                <div data-tilt-element class="projects-card bg-orange">
                     <h3 id="project-3-title" class="projects-card-title" data-animate="slide-up-fade" role="heading"
                         aria-level="3" itemprop="headline">
                         Le CV
@@ -74,10 +76,10 @@
                         CV.
                     </p>
                     <div class="projects-card-img-wrapper p3" data-animate="slide-up-fade">
-                        <img src="../../content/images/projects/p3-mobile-cv.png" width="575" height="781"
+                        <img data-tilt-parallax data-tilt-amount="10" src="../../content/images/projects/p3-mobile-cv.png" width="575" height="781"
                              alt="Image du CV officiel en version mobile" itemprop="image">
                     </div>
-                    <div class="card-highlight"></div>
+                    <div data-tilt-parallax data-tilt-amount="80" class="card-highlight"></div>
                     <div class="projects-category-wrapper">
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Web</span>
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Static</span>
@@ -88,9 +90,9 @@
         </article>
 
         <!-- Project 4 -->
-        <article class="tilt-wrapper" data-action="trailer" aria-labelledby="project-4-title" aria-describedby="project-4-desc" itemscope itemtype="https://schema.org/CreativeWork">
+        <article class="tilt-wrapper" data-action="trailer" data-tilt-reference aria-labelledby="project-4-title" aria-describedby="project-4-desc" itemscope itemtype="https://schema.org/CreativeWork">
             <a class="tilt" href="https://expert-adventure-37wg5y8.pages.github.io/">
-                <div class="projects-card bg-l-purple">
+                <div data-tilt-element class="projects-card bg-l-purple">
                     <h3 id="project-4-title" class="projects-card-title" data-animate="slide-up" role="heading"
                         aria-level="3" itemprop="headline">
                         Logic Circles
@@ -100,10 +102,10 @@
                         l'épreuve et relevez le défi dès maintenant.
                     </p>
                     <div class="projects-card-img-wrapper p4" data-animate="slide-up-fade">
-                        <img src="../../content/images/projects/p4-desktop-logic-circle.png" width="487" height="502"
+                        <img data-tilt-parallax data-tilt-amount="10" src="../../content/images/projects/p4-desktop-logic-circle.png" width="487" height="502"
                              alt="Image du jeu logic circles en version desktop" itemprop="image">
                     </div>
-                    <div class="card-highlight"></div>
+                    <div data-tilt-parallax data-tilt-amount="80" class="card-highlight"></div>
                     <div class="projects-category-wrapper">
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Web</span>
                         <span class="projects-category" data-animate="slide-up-fade" itemprop="genre">Games</span>

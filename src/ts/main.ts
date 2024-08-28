@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     new MagneticButton(`[data-magnetic="true"]`);
 
-    new TiltEffect(".tilt");
+    new TiltEffect('[data-tilt-reference]', '[data-tilt-element]', '[data-tilt-parallax]', 'data-tilt-amount');
 
     new Trailer('#trailer', 9, 300, 10);
 
