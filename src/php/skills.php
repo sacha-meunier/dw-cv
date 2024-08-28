@@ -26,7 +26,7 @@
 
         <div class="skills__carousel" aria-labelledby="skills-carousel" itemscope itemtype="https://schema.org/ItemList">
             <!-- Card 1 -->
-            <a class="skills__card skills__card--thin skills__card--a" data-action="trailer" href="#" aria-labelledby="skills-card-title-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--thin skills__card--a" data-action="trailer" aria-labelledby="skills-card-title-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le développement web">
                 </div>
@@ -36,9 +36,9 @@
                         <dd class="skills__card-copy">Sites web axés sur l'expérience et l'accessibilité des utilisateurs.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
             <!-- Card 2 -->
-            <a class="skills__card skills__card--large skills__card--b" data-action="trailer" href="#" aria-labelledby="skills-card-title-2" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--large skills__card--b" data-action="trailer" aria-labelledby="skills-card-title-2" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la création d'applications">
                 </div>
@@ -48,9 +48,9 @@
                         <dd class="skills__card-copy">Je rends accessible vos services sous forme d'une application pour tous les appareils.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
             <!-- Card 3 -->
-            <a class="skills__card skills__card--large skills__card--c" data-action="trailer" href="#" aria-labelledby="skills-card-title-3" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--large skills__card--c" data-action="trailer" aria-labelledby="skills-card-title-3" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le rebranding">
                 </div>
@@ -60,9 +60,9 @@
                         <dd class="skills__card-copy">J'améliore votre image de marque actuelle pour favoriser votre expansion.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
             <!-- Card 4 -->
-            <a class="skills__card skills__card--thin skills__card--d" data-action="trailer" href="#" aria-labelledby="skills-card-title-4" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--thin skills__card--d" data-action="trailer" aria-labelledby="skills-card-title-4" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la gestion de réseaux sociaux">
                 </div>
@@ -72,9 +72,9 @@
                         <dd class="skills__card-copy">Je développe votre image grâce à l'utilisation des réseaux sociaux.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
             <!-- Card 5 -->
-            <a class="skills__card skills__card--large skills__card--e" data-action="trailer" href="#" aria-labelledby="skills-card-title-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--large skills__card--e" data-action="trailer" aria-labelledby="skills-card-title-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le montage vidéo">
                 </div>
@@ -84,9 +84,9 @@
                         <dd class="skills__card-copy">Je rends vos contenus vidéo exceptionnels grâce à des montages vivant et dynamique.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
             <!-- Card 6 -->
-            <a class="skills__card skills__card--large skills__card--f" data-action="trailer" href="#" aria-labelledby="skills-card-title-6" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <div class="skills__card skills__card--large skills__card--f" data-action="trailer" aria-labelledby="skills-card-title-6" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
                     <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la photographie">
                 </div>
@@ -96,7 +96,7 @@
                         <dd class="skills__card-copy">Je prends de magnifiques photos et les retouches pour un résultat hors du commun.</dd>
                     </dl>
                 </div>
-            </a>
+            </div>
         </div>
 
         <div class="skills__slider" data-animate="fade-in" aria-labelledby="skills-slider" itemscope itemtype="https://schema.org/ItemList">

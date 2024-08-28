@@ -88,36 +88,54 @@
     &--a {
       grid-area: a;
       background-color: $bg-black;
+      background-image: url("../../../content/images/skills/bg-black.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 40px 1px $shadow-black;
     }
 
     &--b {
       grid-area: b;
       background-color: $bg-purple;
+      background-image: url("../../../content/images/skills/bg-purple.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-purple;
     }
 
     &--c {
       grid-area: c;
       background-color: $bg-blue;
+      background-image: url("../../../content/images/skills/bg-blue-dark.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-blue;
     }
 
     &--d {
       grid-area: d;
       background-color: $bg-cyan;
+      background-image: url("../../../content/images/skills/bg-cyan.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-cyan;
     }
 
     &--e {
       grid-area: e;
       background-color: $bg-orange;
+      background-image: url("../../../content/images/skills/bg-orange.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-orange;
     }
 
     &--f {
       grid-area: f;
       background-color: $bg-ocean;
+      background-image: url("../../../content/images/skills/bg-blue.svg");
+      background-position: 50% 100%;
+      background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-ocean;
     }
 
@@ -238,6 +256,7 @@
         padding: 16px;
       }
     }
+
     &__card {
       &-content {
         padding-top: 48px;
@@ -245,6 +264,7 @@
         padding-right: 32px;
       }
     }
+
     &__button {
       margin: 80px auto;
       max-width: 262px;
@@ -287,10 +307,12 @@
           padding-left: 0;
         }
       }
+
       &-content {
         padding-left: 50px;
         padding-right: 50px;
       }
+
       &-media {
         max-height: 356px;
       }
