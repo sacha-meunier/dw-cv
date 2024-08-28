@@ -4,24 +4,25 @@
         <span class="testimonials-heading--blue">Avis</span><br>
         de mes clients
     </h2>
-    <div class="testimonials-articles-wrapper">
+    <div data-tilt-reference class="testimonials-articles-wrapper">
         <!-- Testimonial 1 -->
         <article class="testimonials-article" aria-labelledby="testimonial-1-title"
                  aria-describedby="testimonial-1-desc" itemscope itemtype="https://schema.org/Review">
             <h3 id="testimonial-1-title" class="sro" role="heading" aria-level="3">
-        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-            <span itemprop="name">Brice Maron</span>
-            <span itemprop="jobTitle">Directeur</span>
-            <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <span itemprop="name">Brice Maron</span>
+                <span itemprop="jobTitle">Directeur</span>
+                <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
                 <meta itemprop="name" content="La Taverne Waremme">
+                </span>
+                <meta itemprop="image" content="/content/images/testimonials/david-360.jpg">
             </span>
-            <meta itemprop="image" content="/content/images/testimonials/david-360.jpg">
-        </span>
             </h3>
             <div class="testimonials-img-holder-desktop" data-animate="slide-up-fade">
                 <img
                         loading="lazy"
                         src="/content/images/testimonials/david-360.jpg"
+                        data-tilt-element
                         class="testimonials-pfp-desktop"
                         alt="Photo de profil de Brice Maron"
                         width="360"
@@ -81,6 +82,7 @@
                 <img
                         loading="lazy"
                         src="/content/images/testimonials/pierre-360.jpg"
+                        data-tilt-element
                         class="testimonials-pfp-desktop"
                         alt="Photo de profil de Pierre Kabwe"
                         width="360"
@@ -142,6 +144,7 @@
                 <img
                         loading="lazy"
                         src="/content/images/testimonials/harvey-360.jpg"
+                        data-tilt-element
                         class="testimonials-pfp-desktop"
                         alt="Photo de profil de Lucien Lelièvre"
                         width="360"
