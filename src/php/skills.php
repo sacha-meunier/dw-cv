@@ -28,7 +28,7 @@
             <!-- Card 1 -->
             <div class="skills__card skills__card--thin skills__card--a" data-action="trailer" aria-labelledby="skills-card-title-1" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le développement web">
+                    <img class="skills__card-img" src="../../content/images/services/card-1.png" loading="lazy" alt="Image illustrant le développement web" width="476" height="357">
                 </div>
                 <div class="skills__card-content">
                     <dl>
@@ -40,7 +40,7 @@
             <!-- Card 2 -->
             <div class="skills__card skills__card--large skills__card--b" data-action="trailer" aria-labelledby="skills-card-title-2" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la création d'applications">
+                    <img class="skills__card-img" src="../../content/images/services/phones.png" loading="lazy" alt="Image illustrant la création d'applications">
                 </div>
                 <div class="skills__card-content">
                     <dl>
@@ -52,7 +52,7 @@
             <!-- Card 3 -->
             <div class="skills__card skills__card--large skills__card--c" data-action="trailer" aria-labelledby="skills-card-title-3" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le rebranding">
+                    <img class="skills__card-img" src="../../content/images/services/branding.png" loading="lazy" alt="Image illustrant le rebranding">
                 </div>
                 <div class="skills__card-content">
                     <dl>
@@ -64,19 +64,19 @@
             <!-- Card 4 -->
             <div class="skills__card skills__card--thin skills__card--d" data-action="trailer" aria-labelledby="skills-card-title-4" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la gestion de réseaux sociaux">
+                    <img class="skills__card-img" src="../../content/images/services/canon-2.png" loading="lazy" width="360" height="360" alt="Image illustrant la gestion de réseaux sociaux">
                 </div>
                 <div class="skills__card-content">
                     <dl>
-                        <dt id="skills-card-title-4" class="skills__card-title" itemprop="name">Gestion de réseaux sociaux</dt>
-                        <dd class="skills__card-copy">Je développe votre image grâce à l'utilisation des réseaux sociaux.</dd>
+                        <dt id="skills-card-title-4" class="skills__card-title" itemprop="name">Photographie</dt>
+                        <dd class="skills__card-copy">Je prends de magnifiques photos et les retouches pour un résultat hors du commun.</dd>
                     </dl>
                 </div>
             </div>
             <!-- Card 5 -->
             <div class="skills__card skills__card--large skills__card--e" data-action="trailer" aria-labelledby="skills-card-title-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant le montage vidéo">
+                    <img class="skills__card-img" src="../../content/images/services/computer-2.png" loading="lazy" width="476" height="357" alt="Image illustrant le montage vidéo">
                 </div>
                 <div class="skills__card-content">
                     <dl>
@@ -88,12 +88,12 @@
             <!-- Card 6 -->
             <div class="skills__card skills__card--large skills__card--f" data-action="trailer" aria-labelledby="skills-card-title-6" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <div class="skills__card-media">
-                    <img class="skills__card-img" src="../../content/images/web.png" loading="lazy" alt="Image illustrant la photographie">
+                    <img class="skills__card-img" src="../../content/images/services/social.png" loading="lazy" width="476" height="508" alt="Image illustrant la photographie">
                 </div>
                 <div class="skills__card-content">
                     <dl>
-                        <dt id="skills-card-title-6" class="skills__card-title" itemprop="name">Photographie</dt>
-                        <dd class="skills__card-copy">Je prends de magnifiques photos et les retouches pour un résultat hors du commun.</dd>
+                        <dt id="skills-card-title-6" class="skills__card-title" itemprop="name">Gestion de réseaux sociaux</dt>
+                        <dd class="skills__card-copy">Je développe votre image grâce à l'utilisation des réseaux sociaux.</dd>
                     </dl>
                 </div>
             </div>

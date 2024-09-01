@@ -101,6 +101,11 @@
       background-position: 50% 100%;
       background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-purple;
+
+      img {
+        top: 0;
+        margin: auto;
+      }
     }
 
     &--c {
@@ -110,6 +115,10 @@
       background-position: 50% 100%;
       background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-blue;
+
+      img {
+        bottom: 0;
+      }
     }
 
     &--d {
@@ -119,6 +128,12 @@
       background-position: 50% 100%;
       background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-cyan;
+
+      img {
+        top: 0;
+        bottom: auto;
+        left: -10%;
+      }
     }
 
     &--e {
@@ -128,6 +143,11 @@
       background-position: 50% 100%;
       background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-orange;
+
+      img {
+        top: 0;
+        margin: auto;
+      }
     }
 
     &--f {
@@ -137,6 +157,12 @@
       background-position: 50% 100%;
       background-size: cover;
       box-shadow: 17px 17px 30px 1px $shadow-ocean;
+      overflow: hidden;
+
+      img {
+        bottom: 5%;
+        left: -10%;
+      }
     }
 
     &-media {

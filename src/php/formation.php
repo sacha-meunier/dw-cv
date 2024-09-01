@@ -3,18 +3,18 @@
         <h2 id="formation-heading" class="heading-middle" role="heading" aria-level="2">Mes formations</h2>
     </div>
     <div class="formation-card-wrapper-holder">
-        <div class="formation-card-sticky">
+        <div class="formation-card-sticky formation-bg-1">
             <article class="formation-card-wrapper" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
                 <div class="formation-heading-wrapper">
                     <h3 class="formation-heading" role="heading" aria-level="3" itemprop="credentialCategory">Bachelier web développeur</h3>
                     <div class="formation-banner-wrapper">
-                        <!--<img
+                        <img
                                 loading="lazy"
                                 class="formation-banner parallax"
-                                src="/content/images/formation-banner-1.png"
+                                src="/content/images/formations/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg"
                                 alt="Bannière de l'équipe"
                                 width="469"
-                                height="200">-->
+                                height="200">
                     </div>
                 </div>
                 <div class="formation-p-wrapper-1">
@@ -44,7 +44,7 @@
                 <div class="formation-divider"></div>
             </article>
         </div>
-        <div class="formation-card-sticky formation-card-sticky--blue">
+        <div class="formation-card-sticky formation-bg-1-lighter formation-card-sticky--blue">
             <article class="formation-card-wrapper" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
                 <div class="formation-heading-wrapper">
                     <h3 class="formation-heading" role="heading" aria-level="3" itemprop="credentialCategory">
@@ -95,7 +95,7 @@
                 </div>
             </article>
         </div>
-        <div class="formation-card-sticky formation-card-sticky--green">
+        <div class="formation-card-sticky formation-bg-2 formation-card-sticky--green">
             <article class="formation-card-wrapper" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
                 <div class="formation-heading-wrapper">
                     <h3 class="formation-heading" role="heading" aria-level="3" itemprop="credentialCategory">Bachelier technique graphique</h3>
